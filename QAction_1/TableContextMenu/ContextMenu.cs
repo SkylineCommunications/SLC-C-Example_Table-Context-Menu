@@ -13,13 +13,13 @@
 			InitializeContextMenuData(contextMenuData);
 		}
 
+		public string UserGuid { get; private set; }
+
+		public string ActionRaw { get; private set; }
+
+		public string[] Data { get; private set; }
+
 		protected SLProtocol Protocol { get; }
-
-		protected string UserGuid { get; private set; }
-
-		protected string ActionRaw { get; private set; }
-
-		protected string[] Data { get; private set; }
 
 		public abstract void ProcessContextMenuAction();
 
