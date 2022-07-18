@@ -115,7 +115,7 @@ Any inquiries can be addressed to:
 			<Name>MyTable1_DisplayKey</Name>
 			<Description>Key [IDX] (My Table 1)</Description>
 			<Information>
-				<Subtext>User-friendly key used internally by DataMiner to identify the Stream Resource.</Subtext>
+				<Subtext>User-friendly key used internally by DataMiner to identify the table entry.</Subtext>
 			</Information>
 			<Type>read</Type>
 			<Interprete>
@@ -296,7 +296,7 @@ Any inquiries can be addressed to:
 			<Name>MyTable2_DisplayKey</Name>
 			<Description>Key [IDX] (My Table 2)</Description>
 			<Information>
-				<Subtext>User-friendly key used internally by DataMiner to identify the Stream Resource.</Subtext>
+				<Subtext>User-friendly key used internally by DataMiner to identify the table entry.</Subtext>
 			</Information>
 			<Type>read</Type>
 			<Interprete>
