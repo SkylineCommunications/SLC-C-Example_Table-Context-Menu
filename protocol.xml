@@ -68,7 +68,7 @@ Any inquiries can be addressed to:
 			<Description>After Startup</Description>
 			<Type>dummy</Type>
 		</Param>
-		
+
 		<Param id="998">
 			<Name>MyTable1_ContextMenu</Name>
 			<Description>Context Menu for My Table 1</Description>
@@ -183,7 +183,7 @@ Any inquiries can be addressed to:
 			<Description>Column2 (My Table 1)</Description>
 			<Type>read</Type>
 			<Information>
-				<Subtext>Column 2 of My Table 1</Subtext>
+				<Subtext>Column 2 of My Table 1.</Subtext>
 			</Information>
 			<Interprete>
 				<RawType>other</RawType>
@@ -202,7 +202,7 @@ Any inquiries can be addressed to:
 			<Description>Column3 (My Table 1)</Description>
 			<Type>read</Type>
 			<Information>
-				<Subtext>Column 3 of My Table 1</Subtext>
+				<Subtext>Column 3 of My Table 1.</Subtext>
 			</Information>
 			<Interprete>
 				<RawType>other</RawType>
@@ -221,7 +221,7 @@ Any inquiries can be addressed to:
 			<Description>Column4 (My Table 1)</Description>
 			<Type>read</Type>
 			<Information>
-				<Subtext>Column 4 of My Table 1</Subtext>
+				<Subtext>Column 4 of My Table 1.</Subtext>
 			</Information>
 			<Interprete>
 				<RawType>other</RawType>
@@ -235,7 +235,7 @@ Any inquiries can be addressed to:
 				<Type>string</Type>
 			</Measurement>
 		</Param>
-		
+
 		<Param id="1995" trending="false" save="true">
 			<Name>MyTable2_AutoInc</Name>
 			<Description>Auto Inc Buffer (My Table 2)</Description>
@@ -364,7 +364,7 @@ Any inquiries can be addressed to:
 			<Description>Column2 (My Table 2)</Description>
 			<Type>read</Type>
 			<Information>
-				<Subtext>Column 2 of My Table 1</Subtext>
+				<Subtext>Column 2 of My Table 2.</Subtext>
 			</Information>
 			<Interprete>
 				<RawType>other</RawType>
@@ -383,7 +383,7 @@ Any inquiries can be addressed to:
 			<Description>Column3 (My Table 2)</Description>
 			<Type>read</Type>
 			<Information>
-				<Subtext>Column 3 of My Table 1</Subtext>
+				<Subtext>Column 3 of My Table 2.</Subtext>
 			</Information>
 			<Interprete>
 				<RawType>other</RawType>
@@ -402,7 +402,7 @@ Any inquiries can be addressed to:
 			<Description>Column4 (My Table 2)</Description>
 			<Type>read</Type>
 			<Information>
-				<Subtext>Column 4 of My Table 1</Subtext>
+				<Subtext>Column 4 of My Table 2.</Subtext>
 			</Information>
 			<Interprete>
 				<RawType>other</RawType>

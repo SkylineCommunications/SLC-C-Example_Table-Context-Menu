@@ -42,7 +42,7 @@
 			if (autoIncPid > -1)
 			{
 				int autoIncKey = Convert.ToInt32(Protocol.GetParameter(autoIncPid)) + 1;
-				rowData = new object[] {Convert.ToString(autoIncKey)}.Concat(Data).ToArray();
+				rowData = new object[] { Convert.ToString(autoIncKey) }.Concat(Data).ToArray();
 			}
 			else
 			{
