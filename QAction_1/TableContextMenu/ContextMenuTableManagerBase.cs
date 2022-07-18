@@ -8,7 +8,8 @@
 	{
 		private readonly Action action;
 
-		protected ContextMenuTableManagerBase(SLProtocol protocol, object contextMenuData) : base(protocol, contextMenuData)
+		protected ContextMenuTableManagerBase(SLProtocol protocol, object contextMenuData)
+			: base(protocol, contextMenuData)
 		{
 			action = (Action)Convert.ToInt32(ActionRaw);
 		}

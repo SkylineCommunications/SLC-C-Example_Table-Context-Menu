@@ -20,7 +20,10 @@ public static class QAction
 	{
 		try
 		{
-			ContextMenuTableManagerBasic contextMenu = new ContextMenuTableManagerBasic(protocol, contextMenuData, Parameter.Mytable1.tablePid);
+			ContextMenuTableManagerBasic contextMenu = new ContextMenuTableManagerBasic(
+				protocol,
+				contextMenuData,
+				Parameter.Mytable1.tablePid);
 			contextMenu.ProcessContextMenuAction();
 		}
 		catch (Exception ex)

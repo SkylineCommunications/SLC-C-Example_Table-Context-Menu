@@ -9,22 +9,21 @@
 	public class ContextMenuTableManagerBasic : ContextMenuTableManagerBase
 	{
 		private readonly int tablePid;
-		private int autoIncPid = -1;
+		private readonly int autoIncPid = -1;
 
-		public ContextMenuTableManagerBasic(SLProtocol protocol, object contextMenuData, int tablePid) : base(protocol, contextMenuData)
+		public ContextMenuTableManagerBasic(SLProtocol protocol, object contextMenuData, int tablePid)
+			: base(protocol, contextMenuData)
 		{
-			this.tablePid = tablePid;
+			if (tablePid < 0)
+			{
+				throw new ArgumentException(tablePid + " is < 0.", nameof(tablePid));
+			}
 
-			////protocol.Log(
-			////	"QA" + protocol.QActionID + "|MyTable1ContextMenu|ContextMenu Data" + Environment.NewLine +
-			////		"User GUID '" + UserGuid + "'" + Environment.NewLine +
-			////		"Action '" + ActionRaw + "'" + Environment.NewLine +
-			////		"Data '" + String.Join(" - ", Data) + "'",
-			////	LogType.DebugInfo,
-			////	LogLevel.NoLogging);
+			this.tablePid = tablePid;
 		}
 
-		public ContextMenuTableManagerBasic WithAutoInc(int autoIncPid)
+		public ContextMenuTableManagerBasic(SLProtocol protocol, object contextMenuData, int tablePid, int autoIncPid)
+			: this(protocol, contextMenuData, tablePid)
 		{
 			if (autoIncPid < 0)
 			{
@@ -32,7 +31,6 @@
 			}
 
 			this.autoIncPid = autoIncPid;
-			return this;
 		}
 
 		public override void AddItem()

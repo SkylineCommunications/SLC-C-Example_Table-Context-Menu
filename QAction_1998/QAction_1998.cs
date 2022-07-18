@@ -20,8 +20,11 @@ public static class QAction
 	{
 		try
 		{
-			ContextMenuTableManagerBasic contextMenu = new ContextMenuTableManagerBasic(protocol, contextMenuData, Parameter.Mytable2.tablePid)
-				.WithAutoInc(Parameter.mytable2_autoinc);
+			ContextMenuTableManagerBasic contextMenu = new ContextMenuTableManagerBasic(
+				protocol,
+				contextMenuData,
+				Parameter.Mytable2.tablePid,
+				Parameter.mytable2_autoinc);
 			contextMenu.ProcessContextMenuAction();
 		}
 		catch (Exception ex)
