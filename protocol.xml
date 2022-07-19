@@ -238,7 +238,7 @@ Any inquiries can be addressed to:
 
 		<Param id="1995" trending="false" save="true">
 			<Name>MyTable2_AutoInc</Name>
-			<Description>Auto Inc Buffer (My Table 2)</Description>
+			<Description>Auto Inc Buffer for My Table 2</Description>
 			<Type>read</Type>
 			<Information>
 				<Subtext>Used to save the latest ID used for a row in order to know what PK to use for future rows.</Subtext>
