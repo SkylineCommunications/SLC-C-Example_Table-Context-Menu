@@ -39,11 +39,10 @@
     <ResolveAssemblyWarnOrErrorOnTargetArchitectureMismatch>None</ResolveAssemblyWarnOrErrorOnTargetArchitectureMismatch>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="Skyline.DataMiner.TableContextMenu, Version=1.0.10325.6, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\Skyline.DataMiner.TableContextMenu.1.0.10325.6-1.0.0.X.6\lib\net462\Skyline.DataMiner.TableContextMenu.dll</HintPath>
+    </Reference>
     <Reference Include="System" />
-    <ProjectReference Include="..\QAction_1\QAction_1.csproj">
-      <Project>{09CCFD5B-9E29-4E87-B4C6-32041AF8E36D}</Project>
-      <Name>QAction_1</Name>
-    </ProjectReference>
     <ProjectReference Include="..\QAction_Helper\QAction_Helper.csproj">
       <Project>{E49934CB-C097-4879-ADBA-3188359C2B2E}</Project>
       <Name>QAction_Helper</Name>
@@ -78,11 +77,11 @@
     <Compile Include="QAction_1998.cs" />
   </ItemGroup>
   <ItemGroup>
-    <PackageReference Include="StyleCop.Analyzers">
-      <Version>1.1.118</Version>
-      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
-      <PrivateAssets>all</PrivateAssets>
-    </PackageReference>
+    <None Include="packages.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Analyzer Include="..\packages\StyleCop.Analyzers.1.1.118\analyzers\dotnet\cs\StyleCop.Analyzers.CodeFixes.dll" />
+    <Analyzer Include="..\packages\StyleCop.Analyzers.1.1.118\analyzers\dotnet\cs\StyleCop.Analyzers.dll" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <ProjectExtensions>

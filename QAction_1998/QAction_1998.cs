@@ -4,7 +4,7 @@ using System.Globalization;
 using System.Text;
 
 using Skyline.DataMiner.Scripting;
-using Skyline.Protocol.TableContextMenu;
+using Skyline.DataMiner.TableContextMenu;
 
 /// <summary>
 /// DataMiner QAction Class: My Table 2 - ContextMenu.
