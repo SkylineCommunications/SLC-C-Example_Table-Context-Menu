@@ -144,7 +144,7 @@ Any inquiries can be addressed to:
 				<ColumnOption idx="4" pid="999" type="displaykey" options="" />
 			</ArrayOptions>
 			<Information>
-				<Subtext>My Table 1.</Subtext>
+				<Subtext>My Table 1 is managed via a context-menu where the user has to define the PK and no custom logic is required.</Subtext>
 			</Information>
 			<Display>
 				<RTDisplay>true</RTDisplay>
@@ -325,7 +325,7 @@ Any inquiries can be addressed to:
 				<ColumnOption idx="4" pid="1999" type="displaykey" options="" />
 			</ArrayOptions>
 			<Information>
-				<Subtext>My Table 2.</Subtext>
+				<Subtext>My Table 1 is managed via a context-menu where the PKs are defined automatically (auto-incremented) and no custom logic is required.</Subtext>
 			</Information>
 			<Display>
 				<RTDisplay>true</RTDisplay>
