@@ -955,7 +955,7 @@ Any inquiries can be addressed to:
 		<QAction id="3998" name="Managed Table 4 - ContextMenu" encoding="csharp" triggers="3998">
 		</QAction>
 		
-		<QAction id="9998" name="My Table 4 - ContextMenu" encoding="csharp" triggers="9998">
+		<QAction id="9998" name="My Table 1 - ContextMenu" encoding="csharp" triggers="9998">
 		</QAction>
 	</QActions>
 

@@ -6,7 +6,7 @@ using System.Text;
 using Skyline.DataMiner.Scripting;
 
 /// <summary>
-/// DataMiner QAction Class: My Table 4 - ContextMenu.
+/// DataMiner QAction Class: My Table 1 - ContextMenu.
 /// </summary>
 public static class QAction
 {
