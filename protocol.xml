@@ -506,7 +506,7 @@ Any inquiries can be addressed to:
 				<ColumnOption idx="4" pid="2999" type="displaykey" options="" />
 			</ArrayOptions>
 			<Information>
-				<Subtext>Managed Table 3 is managed via a context-menu where some custom logic is required.</Subtext>
+				<Subtext>Managed Table 3 is managed via a context-menu where all context menu actions need custom code.</Subtext>
 			</Information>
 			<Display>
 				<RTDisplay>true</RTDisplay>
@@ -585,6 +585,187 @@ Any inquiries can be addressed to:
 			<Type>read</Type>
 			<Information>
 				<Subtext>Column 4 of Managed Table 3.</Subtext>
+			</Information>
+			<Interprete>
+				<RawType>other</RawType>
+				<Type>string</Type>
+				<LengthType>next param</LengthType>
+			</Interprete>
+			<Display>
+				<RTDisplay>true</RTDisplay>
+			</Display>
+			<Measurement>
+				<Type>string</Type>
+			</Measurement>
+		</Param>
+		
+		<Param id="3995" trending="false" save="true">
+			<Name>ManagedTable4_AutoInc</Name>
+			<Description>Auto Inc Buffer for Managed Table 4</Description>
+			<Type>read</Type>
+			<Information>
+				<Subtext>Used to save the latest ID used for a row in order to know what PK to use for future rows.</Subtext>
+			</Information>
+			<Interprete>
+				<RawType>numeric text</RawType>
+				<Type>double</Type>
+				<LengthType>next param</LengthType>
+				<DefaultValue>0</DefaultValue>
+			</Interprete>
+		</Param>
+		<Param id="3998">
+			<Name>ManagedTable4_ContextMenu</Name>
+			<Description>Context Menu for Managed Table 4</Description>
+			<Type>write</Type>
+			<Interprete>
+				<RawType>numeric text</RawType>
+				<Type>double</Type>
+				<LengthType>next param</LengthType>
+			</Interprete>
+			<Display>
+				<RTDisplay>true</RTDisplay>
+			</Display>
+			<Measurement>
+				<Type>discreet</Type>
+				<Discreets>
+					<Discreet dependencyValues="3002;3003">
+						<Display>Add item...</Display>
+						<Value>1</Value>
+					</Discreet>
+					<Discreet options="table:singleSelection" dependencyValues="3002:[value:3002];3003:[value:3003]">
+						<Display>Duplicate item...</Display>
+						<Value>2</Value>
+					</Discreet>
+					<Discreet options="separator">
+						<Display>Separator 1</Display>
+						<Value>-1</Value>
+					</Discreet>
+					<Discreet options="table:singleSelection" dependencyValues="3002:[value:3002];3003:[value:3003]">
+						<Display>Edit item...</Display>
+						<Value>10</Value>
+					</Discreet>
+					<Discreet options="separator">
+						<Display>Separator 2</Display>
+						<Value>-2</Value>
+					</Discreet>
+					<Discreet options="table:selection;confirm:The selected item(s) will be deleted permanently.">
+						<Display>Delete selected item(s)</Display>
+						<Value>20</Value>
+					</Discreet>
+				</Discreets>
+			</Measurement>
+		</Param>
+		<Param id="3999" trending="false">
+			<Name>ManagedTable4_DisplayKey</Name>
+			<Description>Key [IDX] (Managed Table 4)</Description>
+			<Information>
+				<Subtext>User-friendly key used internally by DataMiner to identify the table entry.</Subtext>
+			</Information>
+			<Type>read</Type>
+			<Interprete>
+				<RawType>other</RawType>
+				<LengthType>next param</LengthType>
+				<Type>string</Type>
+			</Interprete>
+			<Display>
+				<RTDisplay>true</RTDisplay>
+			</Display>
+			<Measurement>
+				<Type>string</Type>
+			</Measurement>
+		</Param>
+		<Param id="4000">
+			<Name>ManagedTable4</Name>
+			<Description>Managed Table 4</Description>
+			<Type>array</Type>
+			<ArrayOptions index="0">
+				<NamingFormat>,4001, : ,4002</NamingFormat>
+				<ColumnOption idx="0" pid="4001" type="retrieved" options=""/>
+				<ColumnOption idx="1" pid="4002" type="retrieved" options="" />
+				<ColumnOption idx="2" pid="4003" type="retrieved" options="" />
+				<ColumnOption idx="3" pid="4004" type="retrieved" options="" />
+				<ColumnOption idx="4" pid="3999" type="displaykey" options="" />
+			</ArrayOptions>
+			<Information>
+				<Subtext>Managed Table 4 is managed via a context-menu where some of the context menu actions need custom code.</Subtext>
+			</Information>
+			<Display>
+				<RTDisplay>true</RTDisplay>
+				<Positions>
+					<Position>
+						<Page>Managed Tables</Page>
+						<Column>0</Column>
+						<Row>3</Row>
+					</Position>
+				</Positions>
+			</Display>
+			<Measurement>
+				<Type options="tab=columns:4001|0-3999|4-4002|1-4003|2-4004|3,width:100-100-100-100-100,sort:STRING-STRING-STRING-STRING-STRING,lines:25,filter:true">table</Type>
+			</Measurement>
+		</Param>
+		<Param id="4001" trending="false">
+			<Name>ManagedTable4_Instance</Name>
+			<Description>Instance (Managed Table 4)</Description>
+			<Type>read</Type>
+			<Information>
+				<Subtext>This is the key used internally by DataMiner to identify the table entries.</Subtext>
+			</Information>
+			<Interprete>
+				<RawType>other</RawType>
+				<Type>string</Type>
+				<LengthType>next param</LengthType>
+			</Interprete>
+			<Display>
+				<RTDisplay>true</RTDisplay>
+			</Display>
+			<Measurement>
+				<Type>string</Type>
+			</Measurement>
+		</Param>
+		<Param id="4002" trending="false">
+			<Name>ManagedTable4_Column2</Name>
+			<Description>Column2 (Managed Table 4)</Description>
+			<Type>read</Type>
+			<Information>
+				<Subtext>Column 2 of Managed Table 4.</Subtext>
+			</Information>
+			<Interprete>
+				<RawType>other</RawType>
+				<Type>string</Type>
+				<LengthType>next param</LengthType>
+			</Interprete>
+			<Display>
+				<RTDisplay>true</RTDisplay>
+			</Display>
+			<Measurement>
+				<Type>string</Type>
+			</Measurement>
+		</Param>
+		<Param id="4003" trending="false">
+			<Name>ManagedTable4_Column3</Name>
+			<Description>Column3 (Managed Table 4)</Description>
+			<Type>read</Type>
+			<Information>
+				<Subtext>Column 3 of Managed Table 4.</Subtext>
+			</Information>
+			<Interprete>
+				<RawType>other</RawType>
+				<Type>string</Type>
+				<LengthType>next param</LengthType>
+			</Interprete>
+			<Display>
+				<RTDisplay>true</RTDisplay>
+			</Display>
+			<Measurement>
+				<Type>string</Type>
+			</Measurement>
+		</Param>
+		<Param id="4004" trending="false">
+			<Name>ManagedTable4_Column4</Name>
+			<Description>Column4 (Managed Table 4)</Description>
+			<Type>read</Type>
+			<Information>
+				<Subtext>Column 4 of Managed Table 4.</Subtext>
 			</Information>
 			<Interprete>
 				<RawType>other</RawType>
@@ -770,6 +951,8 @@ Any inquiries can be addressed to:
 		<QAction id="1998" name="Managed Table 2 - ContextMenu" encoding="csharp" triggers="1998">
 		</QAction>
 		<QAction id="2998" name="Managed Table 3 - ContextMenu" encoding="csharp" triggers="2998">
+		</QAction>
+		<QAction id="3998" name="Managed Table 4 - ContextMenu" encoding="csharp" triggers="3998">
 		</QAction>
 		
 		<QAction id="9998" name="My Table 4 - ContextMenu" encoding="csharp" triggers="9998">

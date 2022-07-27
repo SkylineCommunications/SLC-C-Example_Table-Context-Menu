@@ -18,6 +18,11 @@ public static class Parameter
 	public const int managedtable3_autoinc_2995 = 2995;
 	/// <summary>PID: 2995 | Type: read</summary>
 	public const int managedtable3_autoinc = 2995;
+	/// <summary>PID: 3995 | Type: read</summary>
+	[EditorBrowsable(EditorBrowsableState.Never)]
+	public const int managedtable4_autoinc_3995 = 3995;
+	/// <summary>PID: 3995 | Type: read</summary>
+	public const int managedtable4_autoinc = 3995;
 	public class Write
 	{
 		/// <summary>PID: 998 | Type: write</summary>
@@ -35,6 +40,11 @@ public static class Parameter
 		public const int managedtable3_contextmenu_2998 = 2998;
 		/// <summary>PID: 2998 | Type: write</summary>
 		public const int managedtable3_contextmenu = 2998;
+		/// <summary>PID: 3998 | Type: write</summary>
+		[EditorBrowsable(EditorBrowsableState.Never)]
+		public const int managedtable4_contextmenu_3998 = 3998;
+		/// <summary>PID: 3998 | Type: write</summary>
+		public const int managedtable4_contextmenu = 3998;
 		/// <summary>PID: 9998 | Type: write</summary>
 		[EditorBrowsable(EditorBrowsableState.Never)]
 		public const int mytable1_contextmenu_9998 = 9998;
@@ -245,6 +255,74 @@ public static class Parameter
 			public const int managedtable3_displaykey = 4;
 		}
 	}
+	public class Managedtable4
+	{
+		/// <summary>PID: 4000</summary>
+		public const int tablePid = 4000;
+		/// <summary>IDX: 0</summary>
+		public const int indexColumn = 0;
+		/// <summary>PID: 4001</summary>
+		public const int indexColumnPid = 4001;
+		public class Pid
+		{
+			/// <summary>PID: 4001 | Type: read</summary>
+			[EditorBrowsable(EditorBrowsableState.Never)]
+			public const int managedtable4_instance_4001 = 4001;
+			/// <summary>PID: 4001 | Type: read</summary>
+			public const int managedtable4_instance = 4001;
+			/// <summary>PID: 4002 | Type: read</summary>
+			[EditorBrowsable(EditorBrowsableState.Never)]
+			public const int managedtable4_column2_4002 = 4002;
+			/// <summary>PID: 4002 | Type: read</summary>
+			public const int managedtable4_column2 = 4002;
+			/// <summary>PID: 4003 | Type: read</summary>
+			[EditorBrowsable(EditorBrowsableState.Never)]
+			public const int managedtable4_column3_4003 = 4003;
+			/// <summary>PID: 4003 | Type: read</summary>
+			public const int managedtable4_column3 = 4003;
+			/// <summary>PID: 4004 | Type: read</summary>
+			[EditorBrowsable(EditorBrowsableState.Never)]
+			public const int managedtable4_column4_4004 = 4004;
+			/// <summary>PID: 4004 | Type: read</summary>
+			public const int managedtable4_column4 = 4004;
+			/// <summary>PID: 3999 | Type: read</summary>
+			[EditorBrowsable(EditorBrowsableState.Never)]
+			public const int managedtable4_displaykey_3999 = 3999;
+			/// <summary>PID: 3999 | Type: read</summary>
+			public const int managedtable4_displaykey = 3999;
+			public class Write
+			{
+			}
+		}
+		public class Idx
+		{
+			/// <summary>IDX: 0 | Type: read</summary>
+			[EditorBrowsable(EditorBrowsableState.Never)]
+			public const int managedtable4_instance_4001 = 0;
+			/// <summary>IDX: 0 | Type: read</summary>
+			public const int managedtable4_instance = 0;
+			/// <summary>IDX: 1 | Type: read</summary>
+			[EditorBrowsable(EditorBrowsableState.Never)]
+			public const int managedtable4_column2_4002 = 1;
+			/// <summary>IDX: 1 | Type: read</summary>
+			public const int managedtable4_column2 = 1;
+			/// <summary>IDX: 2 | Type: read</summary>
+			[EditorBrowsable(EditorBrowsableState.Never)]
+			public const int managedtable4_column3_4003 = 2;
+			/// <summary>IDX: 2 | Type: read</summary>
+			public const int managedtable4_column3 = 2;
+			/// <summary>IDX: 3 | Type: read</summary>
+			[EditorBrowsable(EditorBrowsableState.Never)]
+			public const int managedtable4_column4_4004 = 3;
+			/// <summary>IDX: 3 | Type: read</summary>
+			public const int managedtable4_column4 = 3;
+			/// <summary>IDX: 4 | Type: read</summary>
+			[EditorBrowsable(EditorBrowsableState.Never)]
+			public const int managedtable4_displaykey_3999 = 4;
+			/// <summary>IDX: 4 | Type: read</summary>
+			public const int managedtable4_displaykey = 4;
+		}
+	}
 	public class Mytable1
 	{
 		/// <summary>PID: 10000</summary>
@@ -322,6 +400,8 @@ public class WriteParameters
 	public System.Object Managedtable2_contextmenu {get { return Protocol.GetParameter(1998); }set { Protocol.SetParameter(1998, value); }}
 	/// <summary>PID: 2998  | Type: write | DISCREETS: Add item... = 1, Duplicate item... = 2, Separator 1 = -1, Edit item... = 10, Separator 2 = -2, Delete selected item(s) = 20</summary>
 	public System.Object Managedtable3_contextmenu {get { return Protocol.GetParameter(2998); }set { Protocol.SetParameter(2998, value); }}
+	/// <summary>PID: 3998  | Type: write | DISCREETS: Add item... = 1, Duplicate item... = 2, Separator 1 = -1, Edit item... = 10, Separator 2 = -2, Delete selected item(s) = 20</summary>
+	public System.Object Managedtable4_contextmenu {get { return Protocol.GetParameter(3998); }set { Protocol.SetParameter(3998, value); }}
 	/// <summary>PID: 9998  | Type: write | DISCREETS: Action 1... = 1, Action 2... = 2, Separator 1 = -1, Action 10... = 10</summary>
 	public System.Object Mytable1_contextmenu {get { return Protocol.GetParameter(9998); }set { Protocol.SetParameter(9998, value); }}
 	public SLProtocolExt Protocol;
@@ -338,6 +418,8 @@ public interface SLProtocolExt : SLProtocol
 	Managedtable2QActionTable managedtable2 { get; set; }
 	/// <summary>PID: 3000</summary>
 	Managedtable3QActionTable managedtable3 { get; set; }
+	/// <summary>PID: 4000</summary>
+	Managedtable4QActionTable managedtable4 { get; set; }
 	/// <summary>PID: 10000</summary>
 	Mytable1QActionTable mytable1 { get; set; }
 	object Afterstartup_dummy { get; set; }
@@ -381,6 +463,20 @@ public interface SLProtocolExt : SLProtocol
 	object Managedtable3_column3 { get; set; }
 	object Managedtable3_column4_3004 { get; set; }
 	object Managedtable3_column4 { get; set; }
+	object Managedtable4_autoinc_3995 { get; set; }
+	object Managedtable4_autoinc { get; set; }
+	object Managedtable4_contextmenu_3998 { get; set; }
+	object Managedtable4_contextmenu { get; set; }
+	object Managedtable4_displaykey_3999 { get; set; }
+	object Managedtable4_displaykey { get; set; }
+	object Managedtable4_instance_4001 { get; set; }
+	object Managedtable4_instance { get; set; }
+	object Managedtable4_column2_4002 { get; set; }
+	object Managedtable4_column2 { get; set; }
+	object Managedtable4_column3_4003 { get; set; }
+	object Managedtable4_column3 { get; set; }
+	object Managedtable4_column4_4004 { get; set; }
+	object Managedtable4_column4 { get; set; }
 	object Mytable1_contextmenu_9998 { get; set; }
 	object Mytable1_contextmenu { get; set; }
 	object Mytable1_displaykey_9999 { get; set; }
@@ -403,6 +499,8 @@ public class ConcreteSLProtocolExt : ConcreteSLProtocol, SLProtocolExt
 	public Managedtable2QActionTable managedtable2 { get; set; }
 	/// <summary>PID: 3000</summary>
 	public Managedtable3QActionTable managedtable3 { get; set; }
+	/// <summary>PID: 4000</summary>
+	public Managedtable4QActionTable managedtable4 { get; set; }
 	/// <summary>PID: 10000</summary>
 	public Mytable1QActionTable mytable1 { get; set; }
 	/// <summary>PID: 2  | Type: dummy</summary>
@@ -504,6 +602,40 @@ public class ConcreteSLProtocolExt : ConcreteSLProtocol, SLProtocolExt
 	public System.Object Managedtable3_column4_3004 {get { return GetParameter(3004); }set { SetParameter(3004, value); }}
 	/// <summary>PID: 3004  | Type: read</summary>
 	public System.Object Managedtable3_column4 {get { return GetParameter(3004); }set { SetParameter(3004, value); }}
+	/// <summary>PID: 3995  | Type: read</summary>
+	[EditorBrowsable(EditorBrowsableState.Never)]
+	public System.Object Managedtable4_autoinc_3995 {get { return GetParameter(3995); }set { SetParameter(3995, value); }}
+	/// <summary>PID: 3995  | Type: read</summary>
+	public System.Object Managedtable4_autoinc {get { return GetParameter(3995); }set { SetParameter(3995, value); }}
+	/// <summary>PID: 3998  | Type: write | DISCREETS: Add item... = 1, Duplicate item... = 2, Separator 1 = -1, Edit item... = 10, Separator 2 = -2, Delete selected item(s) = 20</summary>
+	public System.Object Managedtable4_contextmenu_3998 {get { return GetParameter(3998); }set { SetParameter(3998, value); }}
+	/// <summary>PID: 3998  | Type: write | DISCREETS: Add item... = 1, Duplicate item... = 2, Separator 1 = -1, Edit item... = 10, Separator 2 = -2, Delete selected item(s) = 20</summary>
+	public System.Object Managedtable4_contextmenu {get { return Write.Managedtable4_contextmenu; }set { Write.Managedtable4_contextmenu = value; }}
+	/// <summary>PID: 3999  | Type: read</summary>
+	[EditorBrowsable(EditorBrowsableState.Never)]
+	public System.Object Managedtable4_displaykey_3999 {get { return GetParameter(3999); }set { SetParameter(3999, value); }}
+	/// <summary>PID: 3999  | Type: read</summary>
+	public System.Object Managedtable4_displaykey {get { return GetParameter(3999); }set { SetParameter(3999, value); }}
+	/// <summary>PID: 4001  | Type: read</summary>
+	[EditorBrowsable(EditorBrowsableState.Never)]
+	public System.Object Managedtable4_instance_4001 {get { return GetParameter(4001); }set { SetParameter(4001, value); }}
+	/// <summary>PID: 4001  | Type: read</summary>
+	public System.Object Managedtable4_instance {get { return GetParameter(4001); }set { SetParameter(4001, value); }}
+	/// <summary>PID: 4002  | Type: read</summary>
+	[EditorBrowsable(EditorBrowsableState.Never)]
+	public System.Object Managedtable4_column2_4002 {get { return GetParameter(4002); }set { SetParameter(4002, value); }}
+	/// <summary>PID: 4002  | Type: read</summary>
+	public System.Object Managedtable4_column2 {get { return GetParameter(4002); }set { SetParameter(4002, value); }}
+	/// <summary>PID: 4003  | Type: read</summary>
+	[EditorBrowsable(EditorBrowsableState.Never)]
+	public System.Object Managedtable4_column3_4003 {get { return GetParameter(4003); }set { SetParameter(4003, value); }}
+	/// <summary>PID: 4003  | Type: read</summary>
+	public System.Object Managedtable4_column3 {get { return GetParameter(4003); }set { SetParameter(4003, value); }}
+	/// <summary>PID: 4004  | Type: read</summary>
+	[EditorBrowsable(EditorBrowsableState.Never)]
+	public System.Object Managedtable4_column4_4004 {get { return GetParameter(4004); }set { SetParameter(4004, value); }}
+	/// <summary>PID: 4004  | Type: read</summary>
+	public System.Object Managedtable4_column4 {get { return GetParameter(4004); }set { SetParameter(4004, value); }}
 	/// <summary>PID: 9998  | Type: write | DISCREETS: Action 1... = 1, Action 2... = 2, Separator 1 = -1, Action 10... = 10</summary>
 	public System.Object Mytable1_contextmenu_9998 {get { return GetParameter(9998); }set { SetParameter(9998, value); }}
 	/// <summary>PID: 9998  | Type: write | DISCREETS: Action 1... = 1, Action 2... = 2, Separator 1 = -1, Action 10... = 10</summary>
@@ -539,6 +671,7 @@ public class ConcreteSLProtocolExt : ConcreteSLProtocol, SLProtocolExt
 		managedtable1 = new Managedtable1QActionTable(this, 1000, "managedtable1");
 		managedtable2 = new Managedtable2QActionTable(this, 2000, "managedtable2");
 		managedtable3 = new Managedtable3QActionTable(this, 3000, "managedtable3");
+		managedtable4 = new Managedtable4QActionTable(this, 4000, "managedtable4");
 		mytable1 = new Mytable1QActionTable(this, 10000, "mytable1");
 		Write = new WriteParameters(this);
 	}
@@ -563,6 +696,13 @@ public class Managedtable3QActionTable : QActionTable, IEnumerable<Managedtable3
 	public Managedtable3QActionTable(SLProtocol protocol, int tableId, string tableName) : base(protocol, tableId, tableName) { }
 	IEnumerator IEnumerable.GetEnumerator() { return (IEnumerator) GetEnumerator(); }
 	public IEnumerator<Managedtable3QActionRow> GetEnumerator() { return new QActionTableEnumerator<Managedtable3QActionRow>(this); }
+}
+/// <summary>IDX: 0</summary>
+public class Managedtable4QActionTable : QActionTable, IEnumerable<Managedtable4QActionRow>
+{
+	public Managedtable4QActionTable(SLProtocol protocol, int tableId, string tableName) : base(protocol, tableId, tableName) { }
+	IEnumerator IEnumerable.GetEnumerator() { return (IEnumerator) GetEnumerator(); }
+	public IEnumerator<Managedtable4QActionRow> GetEnumerator() { return new QActionTableEnumerator<Managedtable4QActionRow>(this); }
 }
 /// <summary>IDX: 0</summary>
 public class Mytable1QActionTable : QActionTable, IEnumerable<Mytable1QActionRow>
@@ -669,6 +809,39 @@ public class Managedtable3QActionRow : QActionTableRow
 	public Managedtable3QActionRow(System.Object[] oRow) : base(0, 5, oRow) { }
 	public static implicit operator Managedtable3QActionRow(System.Object[] source) { return new Managedtable3QActionRow(source); }
 	public static implicit operator System.Object[](Managedtable3QActionRow source) { return source.ToObjectArray(); }
+}
+/// <summary>IDX: 0</summary>
+public class Managedtable4QActionRow : QActionTableRow
+{
+	/// <summary>PID: 4001 | Type: read</summary>
+	[EditorBrowsable(EditorBrowsableState.Never)]
+	public System.Object Managedtable4_instance_4001 { get { if (base.Columns.ContainsKey(0)) { return base.Columns[0]; } else { return null; } } set { if (base.Columns.ContainsKey(0)) { base.Columns[0] = value; } else { base.Columns.Add(0, value); } } }
+	/// <summary>PID: 4001 | Type: read</summary>
+	public System.Object Managedtable4_instance { get { if (base.Columns.ContainsKey(0)) { return base.Columns[0]; } else { return null; } } set { if (base.Columns.ContainsKey(0)) { base.Columns[0] = value; } else { base.Columns.Add(0, value); } } }
+	/// <summary>PID: 4002 | Type: read</summary>
+	[EditorBrowsable(EditorBrowsableState.Never)]
+	public System.Object Managedtable4_column2_4002 { get { if (base.Columns.ContainsKey(1)) { return base.Columns[1]; } else { return null; } } set { if (base.Columns.ContainsKey(1)) { base.Columns[1] = value; } else { base.Columns.Add(1, value); } } }
+	/// <summary>PID: 4002 | Type: read</summary>
+	public System.Object Managedtable4_column2 { get { if (base.Columns.ContainsKey(1)) { return base.Columns[1]; } else { return null; } } set { if (base.Columns.ContainsKey(1)) { base.Columns[1] = value; } else { base.Columns.Add(1, value); } } }
+	/// <summary>PID: 4003 | Type: read</summary>
+	[EditorBrowsable(EditorBrowsableState.Never)]
+	public System.Object Managedtable4_column3_4003 { get { if (base.Columns.ContainsKey(2)) { return base.Columns[2]; } else { return null; } } set { if (base.Columns.ContainsKey(2)) { base.Columns[2] = value; } else { base.Columns.Add(2, value); } } }
+	/// <summary>PID: 4003 | Type: read</summary>
+	public System.Object Managedtable4_column3 { get { if (base.Columns.ContainsKey(2)) { return base.Columns[2]; } else { return null; } } set { if (base.Columns.ContainsKey(2)) { base.Columns[2] = value; } else { base.Columns.Add(2, value); } } }
+	/// <summary>PID: 4004 | Type: read</summary>
+	[EditorBrowsable(EditorBrowsableState.Never)]
+	public System.Object Managedtable4_column4_4004 { get { if (base.Columns.ContainsKey(3)) { return base.Columns[3]; } else { return null; } } set { if (base.Columns.ContainsKey(3)) { base.Columns[3] = value; } else { base.Columns.Add(3, value); } } }
+	/// <summary>PID: 4004 | Type: read</summary>
+	public System.Object Managedtable4_column4 { get { if (base.Columns.ContainsKey(3)) { return base.Columns[3]; } else { return null; } } set { if (base.Columns.ContainsKey(3)) { base.Columns[3] = value; } else { base.Columns.Add(3, value); } } }
+	/// <summary>PID: 3999 | Type: read</summary>
+	[EditorBrowsable(EditorBrowsableState.Never)]
+	public System.Object Managedtable4_displaykey_3999 { get { if (base.Columns.ContainsKey(4)) { return base.Columns[4]; } else { return null; } } set { if (base.Columns.ContainsKey(4)) { base.Columns[4] = value; } else { base.Columns.Add(4, value); } } }
+	/// <summary>PID: 3999 | Type: read</summary>
+	public System.Object Managedtable4_displaykey { get { if (base.Columns.ContainsKey(4)) { return base.Columns[4]; } else { return null; } } set { if (base.Columns.ContainsKey(4)) { base.Columns[4] = value; } else { base.Columns.Add(4, value); } } }
+	public Managedtable4QActionRow() : base(0, 5) { }
+	public Managedtable4QActionRow(System.Object[] oRow) : base(0, 5, oRow) { }
+	public static implicit operator Managedtable4QActionRow(System.Object[] source) { return new Managedtable4QActionRow(source); }
+	public static implicit operator System.Object[](Managedtable4QActionRow source) { return source.ToObjectArray(); }
 }
 /// <summary>IDX: 0</summary>
 public class Mytable1QActionRow : QActionTableRow
