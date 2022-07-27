@@ -7,7 +7,7 @@ using Skyline.DataMiner.Scripting;
 using Skyline.DataMiner.TableContextMenu;
 
 /// <summary>
-/// DataMiner QAction Class: My Table 2 - ContextMenu.
+/// DataMiner QAction Class: Managed Table 2 - ContextMenu.
 /// </summary>
 public static class QAction
 {
@@ -23,8 +23,8 @@ public static class QAction
 			ContextMenuTableManagerBasic contextMenu = new ContextMenuTableManagerBasic(
 				protocol,
 				contextMenuData,
-				Parameter.Mytable2.tablePid,
-				Parameter.mytable2_autoinc);
+				Parameter.Managedtable2.tablePid,
+				Parameter.managedtable2_autoinc);
 			contextMenu.ProcessContextMenuAction();
 		}
 		catch (Exception ex)

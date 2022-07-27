@@ -4,10 +4,9 @@ using System.Globalization;
 using System.Text;
 
 using Skyline.DataMiner.Scripting;
-using Skyline.DataMiner.TableContextMenu;
 
 /// <summary>
-/// DataMiner QAction Class: Managed Table 1 - ContextMenu.
+/// DataMiner QAction Class: Managed Table 3 - ContextMenu.
 /// </summary>
 public static class QAction
 {
@@ -20,10 +19,11 @@ public static class QAction
 	{
 		try
 		{
-			ContextMenuTableManagerBasic contextMenu = new ContextMenuTableManagerBasic(
+			ContextMenuTableManagerCustom contextMenu = new ContextMenuTableManagerCustom(
 				protocol,
 				contextMenuData,
-				Parameter.Managedtable1.tablePid);
+				Parameter.Managedtable3.tablePid,
+				Parameter.managedtable3_autoinc);
 			contextMenu.ProcessContextMenuAction();
 		}
 		catch (Exception ex)

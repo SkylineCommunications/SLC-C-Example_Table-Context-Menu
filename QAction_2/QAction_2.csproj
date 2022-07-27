@@ -63,6 +63,10 @@
     <Reference Include="SLLoggerUtil">
       <HintPath>C:\Skyline DataMiner\Files\SLLoggerUtil.dll</HintPath>
     </Reference>
+    <ProjectReference Include="..\QAction_1\QAction_1.csproj">
+      <Project>{09CCFD5B-9E29-4E87-B4C6-32041AF8E36D}</Project>
+      <Name>QAction_1</Name>
+    </ProjectReference>
     <ProjectReference Include="..\QAction_Helper\QAction_Helper.csproj">
       <Project>{E49934CB-C097-4879-ADBA-3188359C2B2E}</Project>
       <Name>QAction_Helper</Name>
@@ -84,7 +88,7 @@
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <ProjectExtensions>
     <VisualStudio>
-      <UserProperties DisLinkId="2" DisProjectType="qactionProject" DisLinkedXmlFile="..\protocol.xml" />
+      <UserProperties DisLinkedXmlFile="..\protocol.xml" DisProjectType="qactionProject" DisLinkId="2" />
     </VisualStudio>
   </ProjectExtensions>
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

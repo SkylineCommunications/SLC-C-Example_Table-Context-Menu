@@ -39,8 +39,8 @@
     <ResolveAssemblyWarnOrErrorOnTargetArchitectureMismatch>None</ResolveAssemblyWarnOrErrorOnTargetArchitectureMismatch>
   </PropertyGroup>
   <ItemGroup>
-    <Reference Include="Skyline.DataMiner.TableContextMenu, Version=1.0.10325.6, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>..\packages\Skyline.DataMiner.TableContextMenu.1.0.10325.6-1.0.0.X.6\lib\net462\Skyline.DataMiner.TableContextMenu.dll</HintPath>
+    <Reference Include="Skyline.DataMiner.TableContextMenu, Version=1.0.10325.10, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\Skyline.DataMiner.TableContextMenu.1.0.10325.10-1.0.0.X.10\lib\net462\Skyline.DataMiner.TableContextMenu.dll</HintPath>
     </Reference>
     <Reference Include="System" />
     <ProjectReference Include="..\QAction_Helper\QAction_Helper.csproj">
@@ -86,7 +86,7 @@
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <ProjectExtensions>
     <VisualStudio>
-      <UserProperties DisLinkId="998" DisProjectType="qactionProject" DisLinkedXmlFile="..\protocol.xml" />
+      <UserProperties DisLinkedXmlFile="..\protocol.xml" DisProjectType="qactionProject" DisLinkId="998" />
     </VisualStudio>
   </ProjectExtensions>
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

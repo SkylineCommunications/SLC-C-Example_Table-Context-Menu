@@ -10,23 +10,38 @@ public static class Parameter
 {
 	/// <summary>PID: 1995 | Type: read</summary>
 	[EditorBrowsable(EditorBrowsableState.Never)]
-	public const int mytable2_autoinc_1995 = 1995;
+	public const int managedtable2_autoinc_1995 = 1995;
 	/// <summary>PID: 1995 | Type: read</summary>
-	public const int mytable2_autoinc = 1995;
+	public const int managedtable2_autoinc = 1995;
+	/// <summary>PID: 2995 | Type: read</summary>
+	[EditorBrowsable(EditorBrowsableState.Never)]
+	public const int managedtable3_autoinc_2995 = 2995;
+	/// <summary>PID: 2995 | Type: read</summary>
+	public const int managedtable3_autoinc = 2995;
 	public class Write
 	{
 		/// <summary>PID: 998 | Type: write</summary>
 		[EditorBrowsable(EditorBrowsableState.Never)]
-		public const int mytable1_contextmenu_998 = 998;
+		public const int managedtable1_contextmenu_998 = 998;
 		/// <summary>PID: 998 | Type: write</summary>
-		public const int mytable1_contextmenu = 998;
+		public const int managedtable1_contextmenu = 998;
 		/// <summary>PID: 1998 | Type: write</summary>
 		[EditorBrowsable(EditorBrowsableState.Never)]
-		public const int mytable2_contextmenu_1998 = 1998;
+		public const int managedtable2_contextmenu_1998 = 1998;
 		/// <summary>PID: 1998 | Type: write</summary>
-		public const int mytable2_contextmenu = 1998;
+		public const int managedtable2_contextmenu = 1998;
+		/// <summary>PID: 2998 | Type: write</summary>
+		[EditorBrowsable(EditorBrowsableState.Never)]
+		public const int managedtable3_contextmenu_2998 = 2998;
+		/// <summary>PID: 2998 | Type: write</summary>
+		public const int managedtable3_contextmenu = 2998;
+		/// <summary>PID: 9998 | Type: write</summary>
+		[EditorBrowsable(EditorBrowsableState.Never)]
+		public const int mytable1_contextmenu_9998 = 9998;
+		/// <summary>PID: 9998 | Type: write</summary>
+		public const int mytable1_contextmenu = 9998;
 	}
-	public class Mytable1
+	public class Managedtable1
 	{
 		/// <summary>PID: 1000</summary>
 		public const int tablePid = 1000;
@@ -38,29 +53,29 @@ public static class Parameter
 		{
 			/// <summary>PID: 1001 | Type: read</summary>
 			[EditorBrowsable(EditorBrowsableState.Never)]
-			public const int mytable1_instance_1001 = 1001;
+			public const int managedtable1_instance_1001 = 1001;
 			/// <summary>PID: 1001 | Type: read</summary>
-			public const int mytable1_instance = 1001;
+			public const int managedtable1_instance = 1001;
 			/// <summary>PID: 1002 | Type: read</summary>
 			[EditorBrowsable(EditorBrowsableState.Never)]
-			public const int mytable1_column2_1002 = 1002;
+			public const int managedtable1_column2_1002 = 1002;
 			/// <summary>PID: 1002 | Type: read</summary>
-			public const int mytable1_column2 = 1002;
+			public const int managedtable1_column2 = 1002;
 			/// <summary>PID: 1003 | Type: read</summary>
 			[EditorBrowsable(EditorBrowsableState.Never)]
-			public const int mytable1_column3_1003 = 1003;
+			public const int managedtable1_column3_1003 = 1003;
 			/// <summary>PID: 1003 | Type: read</summary>
-			public const int mytable1_column3 = 1003;
+			public const int managedtable1_column3 = 1003;
 			/// <summary>PID: 1004 | Type: read</summary>
 			[EditorBrowsable(EditorBrowsableState.Never)]
-			public const int mytable1_column4_1004 = 1004;
+			public const int managedtable1_column4_1004 = 1004;
 			/// <summary>PID: 1004 | Type: read</summary>
-			public const int mytable1_column4 = 1004;
+			public const int managedtable1_column4 = 1004;
 			/// <summary>PID: 999 | Type: read</summary>
 			[EditorBrowsable(EditorBrowsableState.Never)]
-			public const int mytable1_displaykey_999 = 999;
+			public const int managedtable1_displaykey_999 = 999;
 			/// <summary>PID: 999 | Type: read</summary>
-			public const int mytable1_displaykey = 999;
+			public const int managedtable1_displaykey = 999;
 			public class Write
 			{
 			}
@@ -69,32 +84,32 @@ public static class Parameter
 		{
 			/// <summary>IDX: 0 | Type: read</summary>
 			[EditorBrowsable(EditorBrowsableState.Never)]
-			public const int mytable1_instance_1001 = 0;
+			public const int managedtable1_instance_1001 = 0;
 			/// <summary>IDX: 0 | Type: read</summary>
-			public const int mytable1_instance = 0;
+			public const int managedtable1_instance = 0;
 			/// <summary>IDX: 1 | Type: read</summary>
 			[EditorBrowsable(EditorBrowsableState.Never)]
-			public const int mytable1_column2_1002 = 1;
+			public const int managedtable1_column2_1002 = 1;
 			/// <summary>IDX: 1 | Type: read</summary>
-			public const int mytable1_column2 = 1;
+			public const int managedtable1_column2 = 1;
 			/// <summary>IDX: 2 | Type: read</summary>
 			[EditorBrowsable(EditorBrowsableState.Never)]
-			public const int mytable1_column3_1003 = 2;
+			public const int managedtable1_column3_1003 = 2;
 			/// <summary>IDX: 2 | Type: read</summary>
-			public const int mytable1_column3 = 2;
+			public const int managedtable1_column3 = 2;
 			/// <summary>IDX: 3 | Type: read</summary>
 			[EditorBrowsable(EditorBrowsableState.Never)]
-			public const int mytable1_column4_1004 = 3;
+			public const int managedtable1_column4_1004 = 3;
 			/// <summary>IDX: 3 | Type: read</summary>
-			public const int mytable1_column4 = 3;
+			public const int managedtable1_column4 = 3;
 			/// <summary>IDX: 4 | Type: read</summary>
 			[EditorBrowsable(EditorBrowsableState.Never)]
-			public const int mytable1_displaykey_999 = 4;
+			public const int managedtable1_displaykey_999 = 4;
 			/// <summary>IDX: 4 | Type: read</summary>
-			public const int mytable1_displaykey = 4;
+			public const int managedtable1_displaykey = 4;
 		}
 	}
-	public class Mytable2
+	public class Managedtable2
 	{
 		/// <summary>PID: 2000</summary>
 		public const int tablePid = 2000;
@@ -106,29 +121,29 @@ public static class Parameter
 		{
 			/// <summary>PID: 2001 | Type: read</summary>
 			[EditorBrowsable(EditorBrowsableState.Never)]
-			public const int mytable2_instance_2001 = 2001;
+			public const int managedtable2_instance_2001 = 2001;
 			/// <summary>PID: 2001 | Type: read</summary>
-			public const int mytable2_instance = 2001;
+			public const int managedtable2_instance = 2001;
 			/// <summary>PID: 2002 | Type: read</summary>
 			[EditorBrowsable(EditorBrowsableState.Never)]
-			public const int mytable2_column2_2002 = 2002;
+			public const int managedtable2_column2_2002 = 2002;
 			/// <summary>PID: 2002 | Type: read</summary>
-			public const int mytable2_column2 = 2002;
+			public const int managedtable2_column2 = 2002;
 			/// <summary>PID: 2003 | Type: read</summary>
 			[EditorBrowsable(EditorBrowsableState.Never)]
-			public const int mytable2_column3_2003 = 2003;
+			public const int managedtable2_column3_2003 = 2003;
 			/// <summary>PID: 2003 | Type: read</summary>
-			public const int mytable2_column3 = 2003;
+			public const int managedtable2_column3 = 2003;
 			/// <summary>PID: 2004 | Type: read</summary>
 			[EditorBrowsable(EditorBrowsableState.Never)]
-			public const int mytable2_column4_2004 = 2004;
+			public const int managedtable2_column4_2004 = 2004;
 			/// <summary>PID: 2004 | Type: read</summary>
-			public const int mytable2_column4 = 2004;
+			public const int managedtable2_column4 = 2004;
 			/// <summary>PID: 1999 | Type: read</summary>
 			[EditorBrowsable(EditorBrowsableState.Never)]
-			public const int mytable2_displaykey_1999 = 1999;
+			public const int managedtable2_displaykey_1999 = 1999;
 			/// <summary>PID: 1999 | Type: read</summary>
-			public const int mytable2_displaykey = 1999;
+			public const int managedtable2_displaykey = 1999;
 			public class Write
 			{
 			}
@@ -137,38 +152,178 @@ public static class Parameter
 		{
 			/// <summary>IDX: 0 | Type: read</summary>
 			[EditorBrowsable(EditorBrowsableState.Never)]
-			public const int mytable2_instance_2001 = 0;
+			public const int managedtable2_instance_2001 = 0;
 			/// <summary>IDX: 0 | Type: read</summary>
-			public const int mytable2_instance = 0;
+			public const int managedtable2_instance = 0;
 			/// <summary>IDX: 1 | Type: read</summary>
 			[EditorBrowsable(EditorBrowsableState.Never)]
-			public const int mytable2_column2_2002 = 1;
+			public const int managedtable2_column2_2002 = 1;
 			/// <summary>IDX: 1 | Type: read</summary>
-			public const int mytable2_column2 = 1;
+			public const int managedtable2_column2 = 1;
 			/// <summary>IDX: 2 | Type: read</summary>
 			[EditorBrowsable(EditorBrowsableState.Never)]
-			public const int mytable2_column3_2003 = 2;
+			public const int managedtable2_column3_2003 = 2;
 			/// <summary>IDX: 2 | Type: read</summary>
-			public const int mytable2_column3 = 2;
+			public const int managedtable2_column3 = 2;
 			/// <summary>IDX: 3 | Type: read</summary>
 			[EditorBrowsable(EditorBrowsableState.Never)]
-			public const int mytable2_column4_2004 = 3;
+			public const int managedtable2_column4_2004 = 3;
 			/// <summary>IDX: 3 | Type: read</summary>
-			public const int mytable2_column4 = 3;
+			public const int managedtable2_column4 = 3;
 			/// <summary>IDX: 4 | Type: read</summary>
 			[EditorBrowsable(EditorBrowsableState.Never)]
-			public const int mytable2_displaykey_1999 = 4;
+			public const int managedtable2_displaykey_1999 = 4;
 			/// <summary>IDX: 4 | Type: read</summary>
-			public const int mytable2_displaykey = 4;
+			public const int managedtable2_displaykey = 4;
+		}
+	}
+	public class Managedtable3
+	{
+		/// <summary>PID: 3000</summary>
+		public const int tablePid = 3000;
+		/// <summary>IDX: 0</summary>
+		public const int indexColumn = 0;
+		/// <summary>PID: 3001</summary>
+		public const int indexColumnPid = 3001;
+		public class Pid
+		{
+			/// <summary>PID: 3001 | Type: read</summary>
+			[EditorBrowsable(EditorBrowsableState.Never)]
+			public const int managedtable3_instance_3001 = 3001;
+			/// <summary>PID: 3001 | Type: read</summary>
+			public const int managedtable3_instance = 3001;
+			/// <summary>PID: 3002 | Type: read</summary>
+			[EditorBrowsable(EditorBrowsableState.Never)]
+			public const int managedtable3_column2_3002 = 3002;
+			/// <summary>PID: 3002 | Type: read</summary>
+			public const int managedtable3_column2 = 3002;
+			/// <summary>PID: 3003 | Type: read</summary>
+			[EditorBrowsable(EditorBrowsableState.Never)]
+			public const int managedtable3_column3_3003 = 3003;
+			/// <summary>PID: 3003 | Type: read</summary>
+			public const int managedtable3_column3 = 3003;
+			/// <summary>PID: 3004 | Type: read</summary>
+			[EditorBrowsable(EditorBrowsableState.Never)]
+			public const int managedtable3_column4_3004 = 3004;
+			/// <summary>PID: 3004 | Type: read</summary>
+			public const int managedtable3_column4 = 3004;
+			/// <summary>PID: 2999 | Type: read</summary>
+			[EditorBrowsable(EditorBrowsableState.Never)]
+			public const int managedtable3_displaykey_2999 = 2999;
+			/// <summary>PID: 2999 | Type: read</summary>
+			public const int managedtable3_displaykey = 2999;
+			public class Write
+			{
+			}
+		}
+		public class Idx
+		{
+			/// <summary>IDX: 0 | Type: read</summary>
+			[EditorBrowsable(EditorBrowsableState.Never)]
+			public const int managedtable3_instance_3001 = 0;
+			/// <summary>IDX: 0 | Type: read</summary>
+			public const int managedtable3_instance = 0;
+			/// <summary>IDX: 1 | Type: read</summary>
+			[EditorBrowsable(EditorBrowsableState.Never)]
+			public const int managedtable3_column2_3002 = 1;
+			/// <summary>IDX: 1 | Type: read</summary>
+			public const int managedtable3_column2 = 1;
+			/// <summary>IDX: 2 | Type: read</summary>
+			[EditorBrowsable(EditorBrowsableState.Never)]
+			public const int managedtable3_column3_3003 = 2;
+			/// <summary>IDX: 2 | Type: read</summary>
+			public const int managedtable3_column3 = 2;
+			/// <summary>IDX: 3 | Type: read</summary>
+			[EditorBrowsable(EditorBrowsableState.Never)]
+			public const int managedtable3_column4_3004 = 3;
+			/// <summary>IDX: 3 | Type: read</summary>
+			public const int managedtable3_column4 = 3;
+			/// <summary>IDX: 4 | Type: read</summary>
+			[EditorBrowsable(EditorBrowsableState.Never)]
+			public const int managedtable3_displaykey_2999 = 4;
+			/// <summary>IDX: 4 | Type: read</summary>
+			public const int managedtable3_displaykey = 4;
+		}
+	}
+	public class Mytable1
+	{
+		/// <summary>PID: 10000</summary>
+		public const int tablePid = 10000;
+		/// <summary>IDX: 0</summary>
+		public const int indexColumn = 0;
+		/// <summary>PID: 10001</summary>
+		public const int indexColumnPid = 10001;
+		public class Pid
+		{
+			/// <summary>PID: 10001 | Type: read</summary>
+			[EditorBrowsable(EditorBrowsableState.Never)]
+			public const int mytable1_instance_10001 = 10001;
+			/// <summary>PID: 10001 | Type: read</summary>
+			public const int mytable1_instance = 10001;
+			/// <summary>PID: 10002 | Type: read</summary>
+			[EditorBrowsable(EditorBrowsableState.Never)]
+			public const int mytable1_column2_10002 = 10002;
+			/// <summary>PID: 10002 | Type: read</summary>
+			public const int mytable1_column2 = 10002;
+			/// <summary>PID: 10003 | Type: read</summary>
+			[EditorBrowsable(EditorBrowsableState.Never)]
+			public const int mytable1_column3_10003 = 10003;
+			/// <summary>PID: 10003 | Type: read</summary>
+			public const int mytable1_column3 = 10003;
+			/// <summary>PID: 10004 | Type: read</summary>
+			[EditorBrowsable(EditorBrowsableState.Never)]
+			public const int mytable1_column4_10004 = 10004;
+			/// <summary>PID: 10004 | Type: read</summary>
+			public const int mytable1_column4 = 10004;
+			/// <summary>PID: 9999 | Type: read</summary>
+			[EditorBrowsable(EditorBrowsableState.Never)]
+			public const int mytable1_displaykey_9999 = 9999;
+			/// <summary>PID: 9999 | Type: read</summary>
+			public const int mytable1_displaykey = 9999;
+			public class Write
+			{
+			}
+		}
+		public class Idx
+		{
+			/// <summary>IDX: 0 | Type: read</summary>
+			[EditorBrowsable(EditorBrowsableState.Never)]
+			public const int mytable1_instance_10001 = 0;
+			/// <summary>IDX: 0 | Type: read</summary>
+			public const int mytable1_instance = 0;
+			/// <summary>IDX: 1 | Type: read</summary>
+			[EditorBrowsable(EditorBrowsableState.Never)]
+			public const int mytable1_column2_10002 = 1;
+			/// <summary>IDX: 1 | Type: read</summary>
+			public const int mytable1_column2 = 1;
+			/// <summary>IDX: 2 | Type: read</summary>
+			[EditorBrowsable(EditorBrowsableState.Never)]
+			public const int mytable1_column3_10003 = 2;
+			/// <summary>IDX: 2 | Type: read</summary>
+			public const int mytable1_column3 = 2;
+			/// <summary>IDX: 3 | Type: read</summary>
+			[EditorBrowsable(EditorBrowsableState.Never)]
+			public const int mytable1_column4_10004 = 3;
+			/// <summary>IDX: 3 | Type: read</summary>
+			public const int mytable1_column4 = 3;
+			/// <summary>IDX: 4 | Type: read</summary>
+			[EditorBrowsable(EditorBrowsableState.Never)]
+			public const int mytable1_displaykey_9999 = 4;
+			/// <summary>IDX: 4 | Type: read</summary>
+			public const int mytable1_displaykey = 4;
 		}
 	}
 }
 public class WriteParameters
 {
 	/// <summary>PID: 998  | Type: write | DISCREETS: Add item... = 1, Duplicate item... = 2, Separator 1 = -1, Edit item... = 10, Separator 2 = -2, Delete selected item(s) = 20</summary>
-	public System.Object Mytable1_contextmenu {get { return Protocol.GetParameter(998); }set { Protocol.SetParameter(998, value); }}
+	public System.Object Managedtable1_contextmenu {get { return Protocol.GetParameter(998); }set { Protocol.SetParameter(998, value); }}
 	/// <summary>PID: 1998  | Type: write | DISCREETS: Add item... = 1, Duplicate item... = 2, Separator 1 = -1, Edit item... = 10, Separator 2 = -2, Delete selected item(s) = 20</summary>
-	public System.Object Mytable2_contextmenu {get { return Protocol.GetParameter(1998); }set { Protocol.SetParameter(1998, value); }}
+	public System.Object Managedtable2_contextmenu {get { return Protocol.GetParameter(1998); }set { Protocol.SetParameter(1998, value); }}
+	/// <summary>PID: 2998  | Type: write | DISCREETS: Add item... = 1, Duplicate item... = 2, Separator 1 = -1, Edit item... = 10, Separator 2 = -2, Delete selected item(s) = 20</summary>
+	public System.Object Managedtable3_contextmenu {get { return Protocol.GetParameter(2998); }set { Protocol.SetParameter(2998, value); }}
+	/// <summary>PID: 9998  | Type: write | DISCREETS: Action 1... = 1, Action 2... = 2, Separator 1 = -1, Action 10... = 10</summary>
+	public System.Object Mytable1_contextmenu {get { return Protocol.GetParameter(9998); }set { Protocol.SetParameter(9998, value); }}
 	public SLProtocolExt Protocol;
 	public WriteParameters(SLProtocolExt protocol)
 	{
@@ -178,116 +333,236 @@ public class WriteParameters
 public interface SLProtocolExt : SLProtocol
 {
 	/// <summary>PID: 1000</summary>
-	Mytable1QActionTable mytable1 { get; set; }
+	Managedtable1QActionTable managedtable1 { get; set; }
 	/// <summary>PID: 2000</summary>
-	Mytable2QActionTable mytable2 { get; set; }
+	Managedtable2QActionTable managedtable2 { get; set; }
+	/// <summary>PID: 3000</summary>
+	Managedtable3QActionTable managedtable3 { get; set; }
+	/// <summary>PID: 10000</summary>
+	Mytable1QActionTable mytable1 { get; set; }
 	object Afterstartup_dummy { get; set; }
-	object Mytable1_contextmenu_998 { get; set; }
+	object Managedtable1_contextmenu_998 { get; set; }
+	object Managedtable1_contextmenu { get; set; }
+	object Managedtable1_displaykey_999 { get; set; }
+	object Managedtable1_displaykey { get; set; }
+	object Managedtable1_instance_1001 { get; set; }
+	object Managedtable1_instance { get; set; }
+	object Managedtable1_column2_1002 { get; set; }
+	object Managedtable1_column2 { get; set; }
+	object Managedtable1_column3_1003 { get; set; }
+	object Managedtable1_column3 { get; set; }
+	object Managedtable1_column4_1004 { get; set; }
+	object Managedtable1_column4 { get; set; }
+	object Managedtable2_autoinc_1995 { get; set; }
+	object Managedtable2_autoinc { get; set; }
+	object Managedtable2_contextmenu_1998 { get; set; }
+	object Managedtable2_contextmenu { get; set; }
+	object Managedtable2_displaykey_1999 { get; set; }
+	object Managedtable2_displaykey { get; set; }
+	object Managedtable2_instance_2001 { get; set; }
+	object Managedtable2_instance { get; set; }
+	object Managedtable2_column2_2002 { get; set; }
+	object Managedtable2_column2 { get; set; }
+	object Managedtable2_column3_2003 { get; set; }
+	object Managedtable2_column3 { get; set; }
+	object Managedtable2_column4_2004 { get; set; }
+	object Managedtable2_column4 { get; set; }
+	object Managedtable3_autoinc_2995 { get; set; }
+	object Managedtable3_autoinc { get; set; }
+	object Managedtable3_contextmenu_2998 { get; set; }
+	object Managedtable3_contextmenu { get; set; }
+	object Managedtable3_displaykey_2999 { get; set; }
+	object Managedtable3_displaykey { get; set; }
+	object Managedtable3_instance_3001 { get; set; }
+	object Managedtable3_instance { get; set; }
+	object Managedtable3_column2_3002 { get; set; }
+	object Managedtable3_column2 { get; set; }
+	object Managedtable3_column3_3003 { get; set; }
+	object Managedtable3_column3 { get; set; }
+	object Managedtable3_column4_3004 { get; set; }
+	object Managedtable3_column4 { get; set; }
+	object Mytable1_contextmenu_9998 { get; set; }
 	object Mytable1_contextmenu { get; set; }
-	object Mytable1_displaykey_999 { get; set; }
+	object Mytable1_displaykey_9999 { get; set; }
 	object Mytable1_displaykey { get; set; }
-	object Mytable1_instance_1001 { get; set; }
+	object Mytable1_instance_10001 { get; set; }
 	object Mytable1_instance { get; set; }
-	object Mytable1_column2_1002 { get; set; }
+	object Mytable1_column2_10002 { get; set; }
 	object Mytable1_column2 { get; set; }
-	object Mytable1_column3_1003 { get; set; }
+	object Mytable1_column3_10003 { get; set; }
 	object Mytable1_column3 { get; set; }
-	object Mytable1_column4_1004 { get; set; }
+	object Mytable1_column4_10004 { get; set; }
 	object Mytable1_column4 { get; set; }
-	object Mytable2_autoinc_1995 { get; set; }
-	object Mytable2_autoinc { get; set; }
-	object Mytable2_contextmenu_1998 { get; set; }
-	object Mytable2_contextmenu { get; set; }
-	object Mytable2_displaykey_1999 { get; set; }
-	object Mytable2_displaykey { get; set; }
-	object Mytable2_instance_2001 { get; set; }
-	object Mytable2_instance { get; set; }
-	object Mytable2_column2_2002 { get; set; }
-	object Mytable2_column2 { get; set; }
-	object Mytable2_column3_2003 { get; set; }
-	object Mytable2_column3 { get; set; }
-	object Mytable2_column4_2004 { get; set; }
-	object Mytable2_column4 { get; set; }
 	WriteParameters Write { get; set; }
 }
 public class ConcreteSLProtocolExt : ConcreteSLProtocol, SLProtocolExt
 {
 	/// <summary>PID: 1000</summary>
-	public Mytable1QActionTable mytable1 { get; set; }
+	public Managedtable1QActionTable managedtable1 { get; set; }
 	/// <summary>PID: 2000</summary>
-	public Mytable2QActionTable mytable2 { get; set; }
+	public Managedtable2QActionTable managedtable2 { get; set; }
+	/// <summary>PID: 3000</summary>
+	public Managedtable3QActionTable managedtable3 { get; set; }
+	/// <summary>PID: 10000</summary>
+	public Mytable1QActionTable mytable1 { get; set; }
 	/// <summary>PID: 2  | Type: dummy</summary>
 	public System.Object Afterstartup_dummy {get { return GetParameter(2); }set { SetParameter(2, value); }}
 	/// <summary>PID: 998  | Type: write | DISCREETS: Add item... = 1, Duplicate item... = 2, Separator 1 = -1, Edit item... = 10, Separator 2 = -2, Delete selected item(s) = 20</summary>
-	public System.Object Mytable1_contextmenu_998 {get { return GetParameter(998); }set { SetParameter(998, value); }}
+	public System.Object Managedtable1_contextmenu_998 {get { return GetParameter(998); }set { SetParameter(998, value); }}
 	/// <summary>PID: 998  | Type: write | DISCREETS: Add item... = 1, Duplicate item... = 2, Separator 1 = -1, Edit item... = 10, Separator 2 = -2, Delete selected item(s) = 20</summary>
+	public System.Object Managedtable1_contextmenu {get { return Write.Managedtable1_contextmenu; }set { Write.Managedtable1_contextmenu = value; }}
+	/// <summary>PID: 999  | Type: read</summary>
+	[EditorBrowsable(EditorBrowsableState.Never)]
+	public System.Object Managedtable1_displaykey_999 {get { return GetParameter(999); }set { SetParameter(999, value); }}
+	/// <summary>PID: 999  | Type: read</summary>
+	public System.Object Managedtable1_displaykey {get { return GetParameter(999); }set { SetParameter(999, value); }}
+	/// <summary>PID: 1001  | Type: read</summary>
+	[EditorBrowsable(EditorBrowsableState.Never)]
+	public System.Object Managedtable1_instance_1001 {get { return GetParameter(1001); }set { SetParameter(1001, value); }}
+	/// <summary>PID: 1001  | Type: read</summary>
+	public System.Object Managedtable1_instance {get { return GetParameter(1001); }set { SetParameter(1001, value); }}
+	/// <summary>PID: 1002  | Type: read</summary>
+	[EditorBrowsable(EditorBrowsableState.Never)]
+	public System.Object Managedtable1_column2_1002 {get { return GetParameter(1002); }set { SetParameter(1002, value); }}
+	/// <summary>PID: 1002  | Type: read</summary>
+	public System.Object Managedtable1_column2 {get { return GetParameter(1002); }set { SetParameter(1002, value); }}
+	/// <summary>PID: 1003  | Type: read</summary>
+	[EditorBrowsable(EditorBrowsableState.Never)]
+	public System.Object Managedtable1_column3_1003 {get { return GetParameter(1003); }set { SetParameter(1003, value); }}
+	/// <summary>PID: 1003  | Type: read</summary>
+	public System.Object Managedtable1_column3 {get { return GetParameter(1003); }set { SetParameter(1003, value); }}
+	/// <summary>PID: 1004  | Type: read</summary>
+	[EditorBrowsable(EditorBrowsableState.Never)]
+	public System.Object Managedtable1_column4_1004 {get { return GetParameter(1004); }set { SetParameter(1004, value); }}
+	/// <summary>PID: 1004  | Type: read</summary>
+	public System.Object Managedtable1_column4 {get { return GetParameter(1004); }set { SetParameter(1004, value); }}
+	/// <summary>PID: 1995  | Type: read</summary>
+	[EditorBrowsable(EditorBrowsableState.Never)]
+	public System.Object Managedtable2_autoinc_1995 {get { return GetParameter(1995); }set { SetParameter(1995, value); }}
+	/// <summary>PID: 1995  | Type: read</summary>
+	public System.Object Managedtable2_autoinc {get { return GetParameter(1995); }set { SetParameter(1995, value); }}
+	/// <summary>PID: 1998  | Type: write | DISCREETS: Add item... = 1, Duplicate item... = 2, Separator 1 = -1, Edit item... = 10, Separator 2 = -2, Delete selected item(s) = 20</summary>
+	public System.Object Managedtable2_contextmenu_1998 {get { return GetParameter(1998); }set { SetParameter(1998, value); }}
+	/// <summary>PID: 1998  | Type: write | DISCREETS: Add item... = 1, Duplicate item... = 2, Separator 1 = -1, Edit item... = 10, Separator 2 = -2, Delete selected item(s) = 20</summary>
+	public System.Object Managedtable2_contextmenu {get { return Write.Managedtable2_contextmenu; }set { Write.Managedtable2_contextmenu = value; }}
+	/// <summary>PID: 1999  | Type: read</summary>
+	[EditorBrowsable(EditorBrowsableState.Never)]
+	public System.Object Managedtable2_displaykey_1999 {get { return GetParameter(1999); }set { SetParameter(1999, value); }}
+	/// <summary>PID: 1999  | Type: read</summary>
+	public System.Object Managedtable2_displaykey {get { return GetParameter(1999); }set { SetParameter(1999, value); }}
+	/// <summary>PID: 2001  | Type: read</summary>
+	[EditorBrowsable(EditorBrowsableState.Never)]
+	public System.Object Managedtable2_instance_2001 {get { return GetParameter(2001); }set { SetParameter(2001, value); }}
+	/// <summary>PID: 2001  | Type: read</summary>
+	public System.Object Managedtable2_instance {get { return GetParameter(2001); }set { SetParameter(2001, value); }}
+	/// <summary>PID: 2002  | Type: read</summary>
+	[EditorBrowsable(EditorBrowsableState.Never)]
+	public System.Object Managedtable2_column2_2002 {get { return GetParameter(2002); }set { SetParameter(2002, value); }}
+	/// <summary>PID: 2002  | Type: read</summary>
+	public System.Object Managedtable2_column2 {get { return GetParameter(2002); }set { SetParameter(2002, value); }}
+	/// <summary>PID: 2003  | Type: read</summary>
+	[EditorBrowsable(EditorBrowsableState.Never)]
+	public System.Object Managedtable2_column3_2003 {get { return GetParameter(2003); }set { SetParameter(2003, value); }}
+	/// <summary>PID: 2003  | Type: read</summary>
+	public System.Object Managedtable2_column3 {get { return GetParameter(2003); }set { SetParameter(2003, value); }}
+	/// <summary>PID: 2004  | Type: read</summary>
+	[EditorBrowsable(EditorBrowsableState.Never)]
+	public System.Object Managedtable2_column4_2004 {get { return GetParameter(2004); }set { SetParameter(2004, value); }}
+	/// <summary>PID: 2004  | Type: read</summary>
+	public System.Object Managedtable2_column4 {get { return GetParameter(2004); }set { SetParameter(2004, value); }}
+	/// <summary>PID: 2995  | Type: read</summary>
+	[EditorBrowsable(EditorBrowsableState.Never)]
+	public System.Object Managedtable3_autoinc_2995 {get { return GetParameter(2995); }set { SetParameter(2995, value); }}
+	/// <summary>PID: 2995  | Type: read</summary>
+	public System.Object Managedtable3_autoinc {get { return GetParameter(2995); }set { SetParameter(2995, value); }}
+	/// <summary>PID: 2998  | Type: write | DISCREETS: Add item... = 1, Duplicate item... = 2, Separator 1 = -1, Edit item... = 10, Separator 2 = -2, Delete selected item(s) = 20</summary>
+	public System.Object Managedtable3_contextmenu_2998 {get { return GetParameter(2998); }set { SetParameter(2998, value); }}
+	/// <summary>PID: 2998  | Type: write | DISCREETS: Add item... = 1, Duplicate item... = 2, Separator 1 = -1, Edit item... = 10, Separator 2 = -2, Delete selected item(s) = 20</summary>
+	public System.Object Managedtable3_contextmenu {get { return Write.Managedtable3_contextmenu; }set { Write.Managedtable3_contextmenu = value; }}
+	/// <summary>PID: 2999  | Type: read</summary>
+	[EditorBrowsable(EditorBrowsableState.Never)]
+	public System.Object Managedtable3_displaykey_2999 {get { return GetParameter(2999); }set { SetParameter(2999, value); }}
+	/// <summary>PID: 2999  | Type: read</summary>
+	public System.Object Managedtable3_displaykey {get { return GetParameter(2999); }set { SetParameter(2999, value); }}
+	/// <summary>PID: 3001  | Type: read</summary>
+	[EditorBrowsable(EditorBrowsableState.Never)]
+	public System.Object Managedtable3_instance_3001 {get { return GetParameter(3001); }set { SetParameter(3001, value); }}
+	/// <summary>PID: 3001  | Type: read</summary>
+	public System.Object Managedtable3_instance {get { return GetParameter(3001); }set { SetParameter(3001, value); }}
+	/// <summary>PID: 3002  | Type: read</summary>
+	[EditorBrowsable(EditorBrowsableState.Never)]
+	public System.Object Managedtable3_column2_3002 {get { return GetParameter(3002); }set { SetParameter(3002, value); }}
+	/// <summary>PID: 3002  | Type: read</summary>
+	public System.Object Managedtable3_column2 {get { return GetParameter(3002); }set { SetParameter(3002, value); }}
+	/// <summary>PID: 3003  | Type: read</summary>
+	[EditorBrowsable(EditorBrowsableState.Never)]
+	public System.Object Managedtable3_column3_3003 {get { return GetParameter(3003); }set { SetParameter(3003, value); }}
+	/// <summary>PID: 3003  | Type: read</summary>
+	public System.Object Managedtable3_column3 {get { return GetParameter(3003); }set { SetParameter(3003, value); }}
+	/// <summary>PID: 3004  | Type: read</summary>
+	[EditorBrowsable(EditorBrowsableState.Never)]
+	public System.Object Managedtable3_column4_3004 {get { return GetParameter(3004); }set { SetParameter(3004, value); }}
+	/// <summary>PID: 3004  | Type: read</summary>
+	public System.Object Managedtable3_column4 {get { return GetParameter(3004); }set { SetParameter(3004, value); }}
+	/// <summary>PID: 9998  | Type: write | DISCREETS: Action 1... = 1, Action 2... = 2, Separator 1 = -1, Action 10... = 10</summary>
+	public System.Object Mytable1_contextmenu_9998 {get { return GetParameter(9998); }set { SetParameter(9998, value); }}
+	/// <summary>PID: 9998  | Type: write | DISCREETS: Action 1... = 1, Action 2... = 2, Separator 1 = -1, Action 10... = 10</summary>
 	public System.Object Mytable1_contextmenu {get { return Write.Mytable1_contextmenu; }set { Write.Mytable1_contextmenu = value; }}
-	/// <summary>PID: 999  | Type: read</summary>
+	/// <summary>PID: 9999  | Type: read</summary>
 	[EditorBrowsable(EditorBrowsableState.Never)]
-	public System.Object Mytable1_displaykey_999 {get { return GetParameter(999); }set { SetParameter(999, value); }}
-	/// <summary>PID: 999  | Type: read</summary>
-	public System.Object Mytable1_displaykey {get { return GetParameter(999); }set { SetParameter(999, value); }}
-	/// <summary>PID: 1001  | Type: read</summary>
+	public System.Object Mytable1_displaykey_9999 {get { return GetParameter(9999); }set { SetParameter(9999, value); }}
+	/// <summary>PID: 9999  | Type: read</summary>
+	public System.Object Mytable1_displaykey {get { return GetParameter(9999); }set { SetParameter(9999, value); }}
+	/// <summary>PID: 10001  | Type: read</summary>
 	[EditorBrowsable(EditorBrowsableState.Never)]
-	public System.Object Mytable1_instance_1001 {get { return GetParameter(1001); }set { SetParameter(1001, value); }}
-	/// <summary>PID: 1001  | Type: read</summary>
-	public System.Object Mytable1_instance {get { return GetParameter(1001); }set { SetParameter(1001, value); }}
-	/// <summary>PID: 1002  | Type: read</summary>
+	public System.Object Mytable1_instance_10001 {get { return GetParameter(10001); }set { SetParameter(10001, value); }}
+	/// <summary>PID: 10001  | Type: read</summary>
+	public System.Object Mytable1_instance {get { return GetParameter(10001); }set { SetParameter(10001, value); }}
+	/// <summary>PID: 10002  | Type: read</summary>
 	[EditorBrowsable(EditorBrowsableState.Never)]
-	public System.Object Mytable1_column2_1002 {get { return GetParameter(1002); }set { SetParameter(1002, value); }}
-	/// <summary>PID: 1002  | Type: read</summary>
-	public System.Object Mytable1_column2 {get { return GetParameter(1002); }set { SetParameter(1002, value); }}
-	/// <summary>PID: 1003  | Type: read</summary>
+	public System.Object Mytable1_column2_10002 {get { return GetParameter(10002); }set { SetParameter(10002, value); }}
+	/// <summary>PID: 10002  | Type: read</summary>
+	public System.Object Mytable1_column2 {get { return GetParameter(10002); }set { SetParameter(10002, value); }}
+	/// <summary>PID: 10003  | Type: read</summary>
 	[EditorBrowsable(EditorBrowsableState.Never)]
-	public System.Object Mytable1_column3_1003 {get { return GetParameter(1003); }set { SetParameter(1003, value); }}
-	/// <summary>PID: 1003  | Type: read</summary>
-	public System.Object Mytable1_column3 {get { return GetParameter(1003); }set { SetParameter(1003, value); }}
-	/// <summary>PID: 1004  | Type: read</summary>
+	public System.Object Mytable1_column3_10003 {get { return GetParameter(10003); }set { SetParameter(10003, value); }}
+	/// <summary>PID: 10003  | Type: read</summary>
+	public System.Object Mytable1_column3 {get { return GetParameter(10003); }set { SetParameter(10003, value); }}
+	/// <summary>PID: 10004  | Type: read</summary>
 	[EditorBrowsable(EditorBrowsableState.Never)]
-	public System.Object Mytable1_column4_1004 {get { return GetParameter(1004); }set { SetParameter(1004, value); }}
-	/// <summary>PID: 1004  | Type: read</summary>
-	public System.Object Mytable1_column4 {get { return GetParameter(1004); }set { SetParameter(1004, value); }}
-	/// <summary>PID: 1995  | Type: read</summary>
-	[EditorBrowsable(EditorBrowsableState.Never)]
-	public System.Object Mytable2_autoinc_1995 {get { return GetParameter(1995); }set { SetParameter(1995, value); }}
-	/// <summary>PID: 1995  | Type: read</summary>
-	public System.Object Mytable2_autoinc {get { return GetParameter(1995); }set { SetParameter(1995, value); }}
-	/// <summary>PID: 1998  | Type: write | DISCREETS: Add item... = 1, Duplicate item... = 2, Separator 1 = -1, Edit item... = 10, Separator 2 = -2, Delete selected item(s) = 20</summary>
-	public System.Object Mytable2_contextmenu_1998 {get { return GetParameter(1998); }set { SetParameter(1998, value); }}
-	/// <summary>PID: 1998  | Type: write | DISCREETS: Add item... = 1, Duplicate item... = 2, Separator 1 = -1, Edit item... = 10, Separator 2 = -2, Delete selected item(s) = 20</summary>
-	public System.Object Mytable2_contextmenu {get { return Write.Mytable2_contextmenu; }set { Write.Mytable2_contextmenu = value; }}
-	/// <summary>PID: 1999  | Type: read</summary>
-	[EditorBrowsable(EditorBrowsableState.Never)]
-	public System.Object Mytable2_displaykey_1999 {get { return GetParameter(1999); }set { SetParameter(1999, value); }}
-	/// <summary>PID: 1999  | Type: read</summary>
-	public System.Object Mytable2_displaykey {get { return GetParameter(1999); }set { SetParameter(1999, value); }}
-	/// <summary>PID: 2001  | Type: read</summary>
-	[EditorBrowsable(EditorBrowsableState.Never)]
-	public System.Object Mytable2_instance_2001 {get { return GetParameter(2001); }set { SetParameter(2001, value); }}
-	/// <summary>PID: 2001  | Type: read</summary>
-	public System.Object Mytable2_instance {get { return GetParameter(2001); }set { SetParameter(2001, value); }}
-	/// <summary>PID: 2002  | Type: read</summary>
-	[EditorBrowsable(EditorBrowsableState.Never)]
-	public System.Object Mytable2_column2_2002 {get { return GetParameter(2002); }set { SetParameter(2002, value); }}
-	/// <summary>PID: 2002  | Type: read</summary>
-	public System.Object Mytable2_column2 {get { return GetParameter(2002); }set { SetParameter(2002, value); }}
-	/// <summary>PID: 2003  | Type: read</summary>
-	[EditorBrowsable(EditorBrowsableState.Never)]
-	public System.Object Mytable2_column3_2003 {get { return GetParameter(2003); }set { SetParameter(2003, value); }}
-	/// <summary>PID: 2003  | Type: read</summary>
-	public System.Object Mytable2_column3 {get { return GetParameter(2003); }set { SetParameter(2003, value); }}
-	/// <summary>PID: 2004  | Type: read</summary>
-	[EditorBrowsable(EditorBrowsableState.Never)]
-	public System.Object Mytable2_column4_2004 {get { return GetParameter(2004); }set { SetParameter(2004, value); }}
-	/// <summary>PID: 2004  | Type: read</summary>
-	public System.Object Mytable2_column4 {get { return GetParameter(2004); }set { SetParameter(2004, value); }}
+	public System.Object Mytable1_column4_10004 {get { return GetParameter(10004); }set { SetParameter(10004, value); }}
+	/// <summary>PID: 10004  | Type: read</summary>
+	public System.Object Mytable1_column4 {get { return GetParameter(10004); }set { SetParameter(10004, value); }}
 	public WriteParameters Write { get; set; }
 	public ConcreteSLProtocolExt()
 	{
-		mytable1 = new Mytable1QActionTable(this, 1000, "mytable1");
-		mytable2 = new Mytable2QActionTable(this, 2000, "mytable2");
+		managedtable1 = new Managedtable1QActionTable(this, 1000, "managedtable1");
+		managedtable2 = new Managedtable2QActionTable(this, 2000, "managedtable2");
+		managedtable3 = new Managedtable3QActionTable(this, 3000, "managedtable3");
+		mytable1 = new Mytable1QActionTable(this, 10000, "mytable1");
 		Write = new WriteParameters(this);
 	}
+}
+/// <summary>IDX: 0</summary>
+public class Managedtable1QActionTable : QActionTable, IEnumerable<Managedtable1QActionRow>
+{
+	public Managedtable1QActionTable(SLProtocol protocol, int tableId, string tableName) : base(protocol, tableId, tableName) { }
+	IEnumerator IEnumerable.GetEnumerator() { return (IEnumerator) GetEnumerator(); }
+	public IEnumerator<Managedtable1QActionRow> GetEnumerator() { return new QActionTableEnumerator<Managedtable1QActionRow>(this); }
+}
+/// <summary>IDX: 0</summary>
+public class Managedtable2QActionTable : QActionTable, IEnumerable<Managedtable2QActionRow>
+{
+	public Managedtable2QActionTable(SLProtocol protocol, int tableId, string tableName) : base(protocol, tableId, tableName) { }
+	IEnumerator IEnumerable.GetEnumerator() { return (IEnumerator) GetEnumerator(); }
+	public IEnumerator<Managedtable2QActionRow> GetEnumerator() { return new QActionTableEnumerator<Managedtable2QActionRow>(this); }
+}
+/// <summary>IDX: 0</summary>
+public class Managedtable3QActionTable : QActionTable, IEnumerable<Managedtable3QActionRow>
+{
+	public Managedtable3QActionTable(SLProtocol protocol, int tableId, string tableName) : base(protocol, tableId, tableName) { }
+	IEnumerator IEnumerable.GetEnumerator() { return (IEnumerator) GetEnumerator(); }
+	public IEnumerator<Managedtable3QActionRow> GetEnumerator() { return new QActionTableEnumerator<Managedtable3QActionRow>(this); }
 }
 /// <summary>IDX: 0</summary>
 public class Mytable1QActionTable : QActionTable, IEnumerable<Mytable1QActionRow>
@@ -297,76 +572,135 @@ public class Mytable1QActionTable : QActionTable, IEnumerable<Mytable1QActionRow
 	public IEnumerator<Mytable1QActionRow> GetEnumerator() { return new QActionTableEnumerator<Mytable1QActionRow>(this); }
 }
 /// <summary>IDX: 0</summary>
-public class Mytable2QActionTable : QActionTable, IEnumerable<Mytable2QActionRow>
+public class Managedtable1QActionRow : QActionTableRow
 {
-	public Mytable2QActionTable(SLProtocol protocol, int tableId, string tableName) : base(protocol, tableId, tableName) { }
-	IEnumerator IEnumerable.GetEnumerator() { return (IEnumerator) GetEnumerator(); }
-	public IEnumerator<Mytable2QActionRow> GetEnumerator() { return new QActionTableEnumerator<Mytable2QActionRow>(this); }
+	/// <summary>PID: 1001 | Type: read</summary>
+	[EditorBrowsable(EditorBrowsableState.Never)]
+	public System.Object Managedtable1_instance_1001 { get { if (base.Columns.ContainsKey(0)) { return base.Columns[0]; } else { return null; } } set { if (base.Columns.ContainsKey(0)) { base.Columns[0] = value; } else { base.Columns.Add(0, value); } } }
+	/// <summary>PID: 1001 | Type: read</summary>
+	public System.Object Managedtable1_instance { get { if (base.Columns.ContainsKey(0)) { return base.Columns[0]; } else { return null; } } set { if (base.Columns.ContainsKey(0)) { base.Columns[0] = value; } else { base.Columns.Add(0, value); } } }
+	/// <summary>PID: 1002 | Type: read</summary>
+	[EditorBrowsable(EditorBrowsableState.Never)]
+	public System.Object Managedtable1_column2_1002 { get { if (base.Columns.ContainsKey(1)) { return base.Columns[1]; } else { return null; } } set { if (base.Columns.ContainsKey(1)) { base.Columns[1] = value; } else { base.Columns.Add(1, value); } } }
+	/// <summary>PID: 1002 | Type: read</summary>
+	public System.Object Managedtable1_column2 { get { if (base.Columns.ContainsKey(1)) { return base.Columns[1]; } else { return null; } } set { if (base.Columns.ContainsKey(1)) { base.Columns[1] = value; } else { base.Columns.Add(1, value); } } }
+	/// <summary>PID: 1003 | Type: read</summary>
+	[EditorBrowsable(EditorBrowsableState.Never)]
+	public System.Object Managedtable1_column3_1003 { get { if (base.Columns.ContainsKey(2)) { return base.Columns[2]; } else { return null; } } set { if (base.Columns.ContainsKey(2)) { base.Columns[2] = value; } else { base.Columns.Add(2, value); } } }
+	/// <summary>PID: 1003 | Type: read</summary>
+	public System.Object Managedtable1_column3 { get { if (base.Columns.ContainsKey(2)) { return base.Columns[2]; } else { return null; } } set { if (base.Columns.ContainsKey(2)) { base.Columns[2] = value; } else { base.Columns.Add(2, value); } } }
+	/// <summary>PID: 1004 | Type: read</summary>
+	[EditorBrowsable(EditorBrowsableState.Never)]
+	public System.Object Managedtable1_column4_1004 { get { if (base.Columns.ContainsKey(3)) { return base.Columns[3]; } else { return null; } } set { if (base.Columns.ContainsKey(3)) { base.Columns[3] = value; } else { base.Columns.Add(3, value); } } }
+	/// <summary>PID: 1004 | Type: read</summary>
+	public System.Object Managedtable1_column4 { get { if (base.Columns.ContainsKey(3)) { return base.Columns[3]; } else { return null; } } set { if (base.Columns.ContainsKey(3)) { base.Columns[3] = value; } else { base.Columns.Add(3, value); } } }
+	/// <summary>PID: 999 | Type: read</summary>
+	[EditorBrowsable(EditorBrowsableState.Never)]
+	public System.Object Managedtable1_displaykey_999 { get { if (base.Columns.ContainsKey(4)) { return base.Columns[4]; } else { return null; } } set { if (base.Columns.ContainsKey(4)) { base.Columns[4] = value; } else { base.Columns.Add(4, value); } } }
+	/// <summary>PID: 999 | Type: read</summary>
+	public System.Object Managedtable1_displaykey { get { if (base.Columns.ContainsKey(4)) { return base.Columns[4]; } else { return null; } } set { if (base.Columns.ContainsKey(4)) { base.Columns[4] = value; } else { base.Columns.Add(4, value); } } }
+	public Managedtable1QActionRow() : base(0, 5) { }
+	public Managedtable1QActionRow(System.Object[] oRow) : base(0, 5, oRow) { }
+	public static implicit operator Managedtable1QActionRow(System.Object[] source) { return new Managedtable1QActionRow(source); }
+	public static implicit operator System.Object[](Managedtable1QActionRow source) { return source.ToObjectArray(); }
+}
+/// <summary>IDX: 0</summary>
+public class Managedtable2QActionRow : QActionTableRow
+{
+	/// <summary>PID: 2001 | Type: read</summary>
+	[EditorBrowsable(EditorBrowsableState.Never)]
+	public System.Object Managedtable2_instance_2001 { get { if (base.Columns.ContainsKey(0)) { return base.Columns[0]; } else { return null; } } set { if (base.Columns.ContainsKey(0)) { base.Columns[0] = value; } else { base.Columns.Add(0, value); } } }
+	/// <summary>PID: 2001 | Type: read</summary>
+	public System.Object Managedtable2_instance { get { if (base.Columns.ContainsKey(0)) { return base.Columns[0]; } else { return null; } } set { if (base.Columns.ContainsKey(0)) { base.Columns[0] = value; } else { base.Columns.Add(0, value); } } }
+	/// <summary>PID: 2002 | Type: read</summary>
+	[EditorBrowsable(EditorBrowsableState.Never)]
+	public System.Object Managedtable2_column2_2002 { get { if (base.Columns.ContainsKey(1)) { return base.Columns[1]; } else { return null; } } set { if (base.Columns.ContainsKey(1)) { base.Columns[1] = value; } else { base.Columns.Add(1, value); } } }
+	/// <summary>PID: 2002 | Type: read</summary>
+	public System.Object Managedtable2_column2 { get { if (base.Columns.ContainsKey(1)) { return base.Columns[1]; } else { return null; } } set { if (base.Columns.ContainsKey(1)) { base.Columns[1] = value; } else { base.Columns.Add(1, value); } } }
+	/// <summary>PID: 2003 | Type: read</summary>
+	[EditorBrowsable(EditorBrowsableState.Never)]
+	public System.Object Managedtable2_column3_2003 { get { if (base.Columns.ContainsKey(2)) { return base.Columns[2]; } else { return null; } } set { if (base.Columns.ContainsKey(2)) { base.Columns[2] = value; } else { base.Columns.Add(2, value); } } }
+	/// <summary>PID: 2003 | Type: read</summary>
+	public System.Object Managedtable2_column3 { get { if (base.Columns.ContainsKey(2)) { return base.Columns[2]; } else { return null; } } set { if (base.Columns.ContainsKey(2)) { base.Columns[2] = value; } else { base.Columns.Add(2, value); } } }
+	/// <summary>PID: 2004 | Type: read</summary>
+	[EditorBrowsable(EditorBrowsableState.Never)]
+	public System.Object Managedtable2_column4_2004 { get { if (base.Columns.ContainsKey(3)) { return base.Columns[3]; } else { return null; } } set { if (base.Columns.ContainsKey(3)) { base.Columns[3] = value; } else { base.Columns.Add(3, value); } } }
+	/// <summary>PID: 2004 | Type: read</summary>
+	public System.Object Managedtable2_column4 { get { if (base.Columns.ContainsKey(3)) { return base.Columns[3]; } else { return null; } } set { if (base.Columns.ContainsKey(3)) { base.Columns[3] = value; } else { base.Columns.Add(3, value); } } }
+	/// <summary>PID: 1999 | Type: read</summary>
+	[EditorBrowsable(EditorBrowsableState.Never)]
+	public System.Object Managedtable2_displaykey_1999 { get { if (base.Columns.ContainsKey(4)) { return base.Columns[4]; } else { return null; } } set { if (base.Columns.ContainsKey(4)) { base.Columns[4] = value; } else { base.Columns.Add(4, value); } } }
+	/// <summary>PID: 1999 | Type: read</summary>
+	public System.Object Managedtable2_displaykey { get { if (base.Columns.ContainsKey(4)) { return base.Columns[4]; } else { return null; } } set { if (base.Columns.ContainsKey(4)) { base.Columns[4] = value; } else { base.Columns.Add(4, value); } } }
+	public Managedtable2QActionRow() : base(0, 5) { }
+	public Managedtable2QActionRow(System.Object[] oRow) : base(0, 5, oRow) { }
+	public static implicit operator Managedtable2QActionRow(System.Object[] source) { return new Managedtable2QActionRow(source); }
+	public static implicit operator System.Object[](Managedtable2QActionRow source) { return source.ToObjectArray(); }
+}
+/// <summary>IDX: 0</summary>
+public class Managedtable3QActionRow : QActionTableRow
+{
+	/// <summary>PID: 3001 | Type: read</summary>
+	[EditorBrowsable(EditorBrowsableState.Never)]
+	public System.Object Managedtable3_instance_3001 { get { if (base.Columns.ContainsKey(0)) { return base.Columns[0]; } else { return null; } } set { if (base.Columns.ContainsKey(0)) { base.Columns[0] = value; } else { base.Columns.Add(0, value); } } }
+	/// <summary>PID: 3001 | Type: read</summary>
+	public System.Object Managedtable3_instance { get { if (base.Columns.ContainsKey(0)) { return base.Columns[0]; } else { return null; } } set { if (base.Columns.ContainsKey(0)) { base.Columns[0] = value; } else { base.Columns.Add(0, value); } } }
+	/// <summary>PID: 3002 | Type: read</summary>
+	[EditorBrowsable(EditorBrowsableState.Never)]
+	public System.Object Managedtable3_column2_3002 { get { if (base.Columns.ContainsKey(1)) { return base.Columns[1]; } else { return null; } } set { if (base.Columns.ContainsKey(1)) { base.Columns[1] = value; } else { base.Columns.Add(1, value); } } }
+	/// <summary>PID: 3002 | Type: read</summary>
+	public System.Object Managedtable3_column2 { get { if (base.Columns.ContainsKey(1)) { return base.Columns[1]; } else { return null; } } set { if (base.Columns.ContainsKey(1)) { base.Columns[1] = value; } else { base.Columns.Add(1, value); } } }
+	/// <summary>PID: 3003 | Type: read</summary>
+	[EditorBrowsable(EditorBrowsableState.Never)]
+	public System.Object Managedtable3_column3_3003 { get { if (base.Columns.ContainsKey(2)) { return base.Columns[2]; } else { return null; } } set { if (base.Columns.ContainsKey(2)) { base.Columns[2] = value; } else { base.Columns.Add(2, value); } } }
+	/// <summary>PID: 3003 | Type: read</summary>
+	public System.Object Managedtable3_column3 { get { if (base.Columns.ContainsKey(2)) { return base.Columns[2]; } else { return null; } } set { if (base.Columns.ContainsKey(2)) { base.Columns[2] = value; } else { base.Columns.Add(2, value); } } }
+	/// <summary>PID: 3004 | Type: read</summary>
+	[EditorBrowsable(EditorBrowsableState.Never)]
+	public System.Object Managedtable3_column4_3004 { get { if (base.Columns.ContainsKey(3)) { return base.Columns[3]; } else { return null; } } set { if (base.Columns.ContainsKey(3)) { base.Columns[3] = value; } else { base.Columns.Add(3, value); } } }
+	/// <summary>PID: 3004 | Type: read</summary>
+	public System.Object Managedtable3_column4 { get { if (base.Columns.ContainsKey(3)) { return base.Columns[3]; } else { return null; } } set { if (base.Columns.ContainsKey(3)) { base.Columns[3] = value; } else { base.Columns.Add(3, value); } } }
+	/// <summary>PID: 2999 | Type: read</summary>
+	[EditorBrowsable(EditorBrowsableState.Never)]
+	public System.Object Managedtable3_displaykey_2999 { get { if (base.Columns.ContainsKey(4)) { return base.Columns[4]; } else { return null; } } set { if (base.Columns.ContainsKey(4)) { base.Columns[4] = value; } else { base.Columns.Add(4, value); } } }
+	/// <summary>PID: 2999 | Type: read</summary>
+	public System.Object Managedtable3_displaykey { get { if (base.Columns.ContainsKey(4)) { return base.Columns[4]; } else { return null; } } set { if (base.Columns.ContainsKey(4)) { base.Columns[4] = value; } else { base.Columns.Add(4, value); } } }
+	public Managedtable3QActionRow() : base(0, 5) { }
+	public Managedtable3QActionRow(System.Object[] oRow) : base(0, 5, oRow) { }
+	public static implicit operator Managedtable3QActionRow(System.Object[] source) { return new Managedtable3QActionRow(source); }
+	public static implicit operator System.Object[](Managedtable3QActionRow source) { return source.ToObjectArray(); }
 }
 /// <summary>IDX: 0</summary>
 public class Mytable1QActionRow : QActionTableRow
 {
-	/// <summary>PID: 1001 | Type: read</summary>
+	/// <summary>PID: 10001 | Type: read</summary>
 	[EditorBrowsable(EditorBrowsableState.Never)]
-	public System.Object Mytable1_instance_1001 { get { if (base.Columns.ContainsKey(0)) { return base.Columns[0]; } else { return null; } } set { if (base.Columns.ContainsKey(0)) { base.Columns[0] = value; } else { base.Columns.Add(0, value); } } }
-	/// <summary>PID: 1001 | Type: read</summary>
+	public System.Object Mytable1_instance_10001 { get { if (base.Columns.ContainsKey(0)) { return base.Columns[0]; } else { return null; } } set { if (base.Columns.ContainsKey(0)) { base.Columns[0] = value; } else { base.Columns.Add(0, value); } } }
+	/// <summary>PID: 10001 | Type: read</summary>
 	public System.Object Mytable1_instance { get { if (base.Columns.ContainsKey(0)) { return base.Columns[0]; } else { return null; } } set { if (base.Columns.ContainsKey(0)) { base.Columns[0] = value; } else { base.Columns.Add(0, value); } } }
-	/// <summary>PID: 1002 | Type: read</summary>
+	/// <summary>PID: 10002 | Type: read</summary>
 	[EditorBrowsable(EditorBrowsableState.Never)]
-	public System.Object Mytable1_column2_1002 { get { if (base.Columns.ContainsKey(1)) { return base.Columns[1]; } else { return null; } } set { if (base.Columns.ContainsKey(1)) { base.Columns[1] = value; } else { base.Columns.Add(1, value); } } }
-	/// <summary>PID: 1002 | Type: read</summary>
+	public System.Object Mytable1_column2_10002 { get { if (base.Columns.ContainsKey(1)) { return base.Columns[1]; } else { return null; } } set { if (base.Columns.ContainsKey(1)) { base.Columns[1] = value; } else { base.Columns.Add(1, value); } } }
+	/// <summary>PID: 10002 | Type: read</summary>
 	public System.Object Mytable1_column2 { get { if (base.Columns.ContainsKey(1)) { return base.Columns[1]; } else { return null; } } set { if (base.Columns.ContainsKey(1)) { base.Columns[1] = value; } else { base.Columns.Add(1, value); } } }
-	/// <summary>PID: 1003 | Type: read</summary>
+	/// <summary>PID: 10003 | Type: read</summary>
 	[EditorBrowsable(EditorBrowsableState.Never)]
-	public System.Object Mytable1_column3_1003 { get { if (base.Columns.ContainsKey(2)) { return base.Columns[2]; } else { return null; } } set { if (base.Columns.ContainsKey(2)) { base.Columns[2] = value; } else { base.Columns.Add(2, value); } } }
-	/// <summary>PID: 1003 | Type: read</summary>
+	public System.Object Mytable1_column3_10003 { get { if (base.Columns.ContainsKey(2)) { return base.Columns[2]; } else { return null; } } set { if (base.Columns.ContainsKey(2)) { base.Columns[2] = value; } else { base.Columns.Add(2, value); } } }
+	/// <summary>PID: 10003 | Type: read</summary>
 	public System.Object Mytable1_column3 { get { if (base.Columns.ContainsKey(2)) { return base.Columns[2]; } else { return null; } } set { if (base.Columns.ContainsKey(2)) { base.Columns[2] = value; } else { base.Columns.Add(2, value); } } }
-	/// <summary>PID: 1004 | Type: read</summary>
+	/// <summary>PID: 10004 | Type: read</summary>
 	[EditorBrowsable(EditorBrowsableState.Never)]
-	public System.Object Mytable1_column4_1004 { get { if (base.Columns.ContainsKey(3)) { return base.Columns[3]; } else { return null; } } set { if (base.Columns.ContainsKey(3)) { base.Columns[3] = value; } else { base.Columns.Add(3, value); } } }
-	/// <summary>PID: 1004 | Type: read</summary>
+	public System.Object Mytable1_column4_10004 { get { if (base.Columns.ContainsKey(3)) { return base.Columns[3]; } else { return null; } } set { if (base.Columns.ContainsKey(3)) { base.Columns[3] = value; } else { base.Columns.Add(3, value); } } }
+	/// <summary>PID: 10004 | Type: read</summary>
 	public System.Object Mytable1_column4 { get { if (base.Columns.ContainsKey(3)) { return base.Columns[3]; } else { return null; } } set { if (base.Columns.ContainsKey(3)) { base.Columns[3] = value; } else { base.Columns.Add(3, value); } } }
-	/// <summary>PID: 999 | Type: read</summary>
+	/// <summary>PID: 9999 | Type: read</summary>
 	[EditorBrowsable(EditorBrowsableState.Never)]
-	public System.Object Mytable1_displaykey_999 { get { if (base.Columns.ContainsKey(4)) { return base.Columns[4]; } else { return null; } } set { if (base.Columns.ContainsKey(4)) { base.Columns[4] = value; } else { base.Columns.Add(4, value); } } }
-	/// <summary>PID: 999 | Type: read</summary>
+	public System.Object Mytable1_displaykey_9999 { get { if (base.Columns.ContainsKey(4)) { return base.Columns[4]; } else { return null; } } set { if (base.Columns.ContainsKey(4)) { base.Columns[4] = value; } else { base.Columns.Add(4, value); } } }
+	/// <summary>PID: 9999 | Type: read</summary>
 	public System.Object Mytable1_displaykey { get { if (base.Columns.ContainsKey(4)) { return base.Columns[4]; } else { return null; } } set { if (base.Columns.ContainsKey(4)) { base.Columns[4] = value; } else { base.Columns.Add(4, value); } } }
 	public Mytable1QActionRow() : base(0, 5) { }
 	public Mytable1QActionRow(System.Object[] oRow) : base(0, 5, oRow) { }
 	public static implicit operator Mytable1QActionRow(System.Object[] source) { return new Mytable1QActionRow(source); }
 	public static implicit operator System.Object[](Mytable1QActionRow source) { return source.ToObjectArray(); }
-}
-/// <summary>IDX: 0</summary>
-public class Mytable2QActionRow : QActionTableRow
-{
-	/// <summary>PID: 2001 | Type: read</summary>
-	[EditorBrowsable(EditorBrowsableState.Never)]
-	public System.Object Mytable2_instance_2001 { get { if (base.Columns.ContainsKey(0)) { return base.Columns[0]; } else { return null; } } set { if (base.Columns.ContainsKey(0)) { base.Columns[0] = value; } else { base.Columns.Add(0, value); } } }
-	/// <summary>PID: 2001 | Type: read</summary>
-	public System.Object Mytable2_instance { get { if (base.Columns.ContainsKey(0)) { return base.Columns[0]; } else { return null; } } set { if (base.Columns.ContainsKey(0)) { base.Columns[0] = value; } else { base.Columns.Add(0, value); } } }
-	/// <summary>PID: 2002 | Type: read</summary>
-	[EditorBrowsable(EditorBrowsableState.Never)]
-	public System.Object Mytable2_column2_2002 { get { if (base.Columns.ContainsKey(1)) { return base.Columns[1]; } else { return null; } } set { if (base.Columns.ContainsKey(1)) { base.Columns[1] = value; } else { base.Columns.Add(1, value); } } }
-	/// <summary>PID: 2002 | Type: read</summary>
-	public System.Object Mytable2_column2 { get { if (base.Columns.ContainsKey(1)) { return base.Columns[1]; } else { return null; } } set { if (base.Columns.ContainsKey(1)) { base.Columns[1] = value; } else { base.Columns.Add(1, value); } } }
-	/// <summary>PID: 2003 | Type: read</summary>
-	[EditorBrowsable(EditorBrowsableState.Never)]
-	public System.Object Mytable2_column3_2003 { get { if (base.Columns.ContainsKey(2)) { return base.Columns[2]; } else { return null; } } set { if (base.Columns.ContainsKey(2)) { base.Columns[2] = value; } else { base.Columns.Add(2, value); } } }
-	/// <summary>PID: 2003 | Type: read</summary>
-	public System.Object Mytable2_column3 { get { if (base.Columns.ContainsKey(2)) { return base.Columns[2]; } else { return null; } } set { if (base.Columns.ContainsKey(2)) { base.Columns[2] = value; } else { base.Columns.Add(2, value); } } }
-	/// <summary>PID: 2004 | Type: read</summary>
-	[EditorBrowsable(EditorBrowsableState.Never)]
-	public System.Object Mytable2_column4_2004 { get { if (base.Columns.ContainsKey(3)) { return base.Columns[3]; } else { return null; } } set { if (base.Columns.ContainsKey(3)) { base.Columns[3] = value; } else { base.Columns.Add(3, value); } } }
-	/// <summary>PID: 2004 | Type: read</summary>
-	public System.Object Mytable2_column4 { get { if (base.Columns.ContainsKey(3)) { return base.Columns[3]; } else { return null; } } set { if (base.Columns.ContainsKey(3)) { base.Columns[3] = value; } else { base.Columns.Add(3, value); } } }
-	/// <summary>PID: 1999 | Type: read</summary>
-	[EditorBrowsable(EditorBrowsableState.Never)]
-	public System.Object Mytable2_displaykey_1999 { get { if (base.Columns.ContainsKey(4)) { return base.Columns[4]; } else { return null; } } set { if (base.Columns.ContainsKey(4)) { base.Columns[4] = value; } else { base.Columns.Add(4, value); } } }
-	/// <summary>PID: 1999 | Type: read</summary>
-	public System.Object Mytable2_displaykey { get { if (base.Columns.ContainsKey(4)) { return base.Columns[4]; } else { return null; } } set { if (base.Columns.ContainsKey(4)) { base.Columns[4] = value; } else { base.Columns.Add(4, value); } } }
-	public Mytable2QActionRow() : base(0, 5) { }
-	public Mytable2QActionRow(System.Object[] oRow) : base(0, 5, oRow) { }
-	public static implicit operator Mytable2QActionRow(System.Object[] source) { return new Mytable2QActionRow(source); }
-	public static implicit operator System.Object[](Mytable2QActionRow source) { return source.ToObjectArray(); }
 }
 }
