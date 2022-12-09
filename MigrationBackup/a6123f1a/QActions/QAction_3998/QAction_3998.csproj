@@ -5,11 +5,11 @@
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
     <ProductVersion>8.0.30703</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
-    <ProjectGuid>{D2FA5F39-BFB2-4301-956A-0BBAD291686B}</ProjectGuid>
+    <ProjectGuid>{C2F9DDBC-CADD-4C47-9048-FCC318312DC2}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>QAction_998</RootNamespace>
-    <AssemblyName>QAction_998</AssemblyName>
+    <RootNamespace>QAction_3998</RootNamespace>
+    <AssemblyName>QAction_3998</AssemblyName>
     <TargetFrameworkVersion>v4.6.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <LangVersion>7.3</LangVersion>
@@ -23,7 +23,7 @@
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
     <CodeAnalysisRuleSet>..\Internal\Code Analysis\qaction-debug.ruleset</CodeAnalysisRuleSet>
-    <DocumentationFile>bin\Debug\QAction_998.xml</DocumentationFile>
+    <DocumentationFile>bin\Debug\QAction_3998.xml</DocumentationFile>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
     <DebugType>pdbonly</DebugType>
@@ -33,12 +33,15 @@
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
     <CodeAnalysisRuleSet>..\Internal\Code Analysis\qaction-release.ruleset</CodeAnalysisRuleSet>
-    <DocumentationFile>bin\Release\QAction_998.xml</DocumentationFile>
+    <DocumentationFile>bin\Release\QAction_3998.xml</DocumentationFile>
   </PropertyGroup>
   <PropertyGroup>
     <ResolveAssemblyWarnOrErrorOnTargetArchitectureMismatch>None</ResolveAssemblyWarnOrErrorOnTargetArchitectureMismatch>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="Skyline.DataMiner.TableContextMenu, Version=1.0.10325.10, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\Skyline.DataMiner.TableContextMenu.1.0.10325.10-1.0.0.X.10\lib\net462\Skyline.DataMiner.TableContextMenu.dll</HintPath>
+    </Reference>
     <Reference Include="System" />
     <ProjectReference Include="..\QAction_Helper\QAction_Helper.csproj">
       <Project>{E49934CB-C097-4879-ADBA-3188359C2B2E}</Project>
@@ -52,13 +55,21 @@
     <Content Include=".editorconfig" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="ContextMenuTableManagerCustom.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="QAction_998.cs" />
+    <Compile Include="QAction_3998.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="packages.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Analyzer Include="..\packages\StyleCop.Analyzers.1.1.118\analyzers\dotnet\cs\StyleCop.Analyzers.CodeFixes.dll" />
+    <Analyzer Include="..\packages\StyleCop.Analyzers.1.1.118\analyzers\dotnet\cs\StyleCop.Analyzers.dll" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <ProjectExtensions>
     <VisualStudio>
-      <UserProperties DisLinkId="998" DisProjectType="qactionProject" DisLinkedXmlFile="..\protocol.xml" />
+      <UserProperties DisLinkedXmlFile="..\protocol.xml" DisProjectType="qactionProject" DisLinkId="3998" />
     </VisualStudio>
   </ProjectExtensions>
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

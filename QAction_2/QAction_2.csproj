@@ -40,29 +40,39 @@
     <ResolveAssemblyWarnOrErrorOnTargetArchitectureMismatch>None</ResolveAssemblyWarnOrErrorOnTargetArchitectureMismatch>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="ICSharpCode.SharpZipLib, Version=0.86.0.518, Culture=neutral, PublicKeyToken=1b03e6acf1164f73, processorArchitecture=MSIL">
+      <HintPath>..\packages\SharpZipLib.0.86.0\lib\20\ICSharpCode.SharpZipLib.dll</HintPath>
+    </Reference>
+    <Reference Include="Interop.SLDms, Version=1.0.0.0, Culture=neutral, PublicKeyToken=9789b1eac4cb1b12, processorArchitecture=MSIL">
+      <HintPath>..\packages\Skyline.DataMiner.Files.Interop.SLDms.10.0.0.5\lib\net462\Interop.SLDms.dll</HintPath>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </Reference>
+    <Reference Include="Newtonsoft.Json, Version=11.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
+      <HintPath>..\packages\Newtonsoft.Json.11.0.2\lib\net45\Newtonsoft.Json.dll</HintPath>
+    </Reference>
+    <Reference Include="protobuf-net, Version=2.0.0.668, Culture=neutral, PublicKeyToken=257b51d87d2e4d67, processorArchitecture=MSIL">
+      <HintPath>..\packages\Skyline.DataMiner.Files.protobufnet.10.0.0.5\lib\net462\protobuf-net.dll</HintPath>
+    </Reference>
+    <Reference Include="QActionHelperBaseClasses, Version=1.0.0.0, Culture=neutral, processorArchitecture=x86">
+      <HintPath>..\packages\Skyline.DataMiner.Files.QActionHelperBaseClasses.10.0.0.5\lib\net462\QActionHelperBaseClasses.dll</HintPath>
+    </Reference>
+    <Reference Include="SLLoggerUtil, Version=1.0.0.0, Culture=neutral, PublicKeyToken=9789b1eac4cb1b12, processorArchitecture=MSIL">
+      <HintPath>..\packages\Skyline.DataMiner.Files.SLLoggerUtil.10.0.0.5\lib\net462\SLLoggerUtil.dll</HintPath>
+    </Reference>
+    <Reference Include="SLManagedScripting, Version=0.0.0.0, Culture=neutral, processorArchitecture=x86">
+      <HintPath>..\packages\Skyline.DataMiner.Files.SLManagedScripting.10.0.0.5\lib\net462\SLManagedScripting.dll</HintPath>
+    </Reference>
+    <Reference Include="SLNetTypes, Version=1.0.0.0, Culture=neutral, PublicKeyToken=9789b1eac4cb1b12, processorArchitecture=MSIL">
+      <HintPath>..\packages\Skyline.DataMiner.Files.SLNetTypes.10.0.0.5\lib\net462\SLNetTypes.dll</HintPath>
+    </Reference>
+    <Reference Include="SLProtoBufLibrary, Version=1.0.0.0, Culture=neutral, PublicKeyToken=9789b1eac4cb1b12, processorArchitecture=MSIL">
+      <HintPath>..\packages\Skyline.DataMiner.Files.SLProtoBufLibrary.10.0.0.5\lib\net462\SLProtoBufLibrary.dll</HintPath>
+    </Reference>
     <Reference Include="System" />
     <Reference Include="mscorlib" />
     <Reference Include="System" />
     <Reference Include="System.Xml" />
     <Reference Include="System.Core" />
-    <Reference Include="Interop.SLDms">
-      <HintPath>C:\Skyline DataMiner\ProtocolScripts\Interop.SLDms.dll</HintPath>
-    </Reference>
-    <Reference Include="SLManagedScripting">
-      <HintPath>C:\Skyline DataMiner\Files\SLManagedScripting.dll</HintPath>
-    </Reference>
-    <Reference Include="SLNetTypes">
-      <HintPath>C:\Skyline DataMiner\Files\SLNetTypes.dll</HintPath>
-    </Reference>
-    <Reference Include="QactionHelperBaseClasses">
-      <HintPath>C:\Skyline DataMiner\Files\QactionHelperBaseClasses.dll</HintPath>
-    </Reference>
-    <Reference Include="Skyline.DataMiner.Storage.Types">
-      <HintPath>C:\Skyline DataMiner\Files\Skyline.DataMiner.Storage.Types.dll</HintPath>
-    </Reference>
-    <Reference Include="SLLoggerUtil">
-      <HintPath>C:\Skyline DataMiner\Files\SLLoggerUtil.dll</HintPath>
-    </Reference>
     <ProjectReference Include="..\QAction_1\QAction_1.csproj">
       <Project>{09CCFD5B-9E29-4E87-B4C6-32041AF8E36D}</Project>
       <Name>QAction_1</Name>
@@ -88,7 +98,7 @@
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <ProjectExtensions>
     <VisualStudio>
-      <UserProperties DisLinkedXmlFile="..\protocol.xml" DisProjectType="qactionProject" DisLinkId="2" />
+      <UserProperties DisLinkId="2" DisProjectType="qactionProject" DisLinkedXmlFile="..\protocol.xml" />
     </VisualStudio>
   </ProjectExtensions>
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
