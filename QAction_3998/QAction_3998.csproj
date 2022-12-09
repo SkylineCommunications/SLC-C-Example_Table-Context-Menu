@@ -56,6 +56,16 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="QAction_3998.cs" />
   </ItemGroup>
+  <ItemGroup>
+    <PackageReference Include="Skyline.DataMiner.TableContextMenu">
+      <Version>1.0.10325.10-1.0.0.X.10</Version>
+    </PackageReference>
+    <PackageReference Include="StyleCop.Analyzers">
+      <Version>1.1.118</Version>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+      <PrivateAssets>all</PrivateAssets>
+    </PackageReference>
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <ProjectExtensions>
     <VisualStudio>
