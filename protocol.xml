@@ -47,7 +47,7 @@ Any inquiries can be addressed to:
 <Protocol xmlns="http://www.skyline.be/protocol">
 	<Name>SLC SDF Table ContextMenu</Name>
 	<Description>SLC SDF Table ContextMenu</Description>
-	<Version>1.0.0.2</Version>
+	<Version>1.0.0.1</Version>
 	<IntegrationID>DMS-DRV-12345</IntegrationID>
 	<Provider>Skyline Communications</Provider>
 	<Vendor>Skyline Communications</Vendor>
@@ -1036,16 +1036,6 @@ Any inquiries can be addressed to:
 										</Provider>
 										<Changes>
 											<NewFeature>Initial version</NewFeature>
-										</Changes>
-									</MinorVersion>
-									<MinorVersion id="2" basedOn="1.0.0.1">
-										<Date>2022-12-09</Date>
-										<Provider>
-											<Author>SVD</Author>
-											<Company>Skyline Communications</Company>
-										</Provider>
-										<Changes>
-											<Change>Migration to DevPacks</Change>
 										</Changes>
 										<References>
 											<TaskId>198352</TaskId>
