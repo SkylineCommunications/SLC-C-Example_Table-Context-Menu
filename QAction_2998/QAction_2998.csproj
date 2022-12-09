@@ -57,6 +57,9 @@
     <Compile Include="QAction_2998.cs" />
   </ItemGroup>
   <ItemGroup>
+    <PackageReference Include="Skyline.DataMiner.Dev.Protocol">
+      <Version>10.0.0.5</Version>
+    </PackageReference>
     <PackageReference Include="Skyline.DataMiner.TableContextMenu">
       <Version>1.0.10325.10-1.0.0.X.10</Version>
     </PackageReference>
@@ -69,7 +72,7 @@
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <ProjectExtensions>
     <VisualStudio>
-      <UserProperties DisLinkedXmlFile="..\protocol.xml" DisProjectType="qactionProject" DisLinkId="2998" />
+      <UserProperties DisLinkId="2998" DisProjectType="qactionProject" DisLinkedXmlFile="..\protocol.xml" />
     </VisualStudio>
   </ProjectExtensions>
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
