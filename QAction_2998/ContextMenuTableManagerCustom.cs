@@ -1,31 +1,20 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 using Skyline.DataMiner.Scripting;
 using Skyline.DataMiner.Utils.Table.ContextMenu;
 
 internal class ContextMenuTableManagerCustom : ContextMenuTableManagerBase
 {
-	private readonly int tablePid;
 	private readonly int autoIncPid;
 
 	public ContextMenuTableManagerCustom(SLProtocol protocol, object contextMenuData, int tablePid, int autoIncPid)
 		: base(protocol, contextMenuData, tablePid)
 	{
-		if (tablePid < 0)
-		{
-			throw new ArgumentException(tablePid + " is < 0.", nameof(tablePid));
-		}
-
 		if (autoIncPid < 0)
 		{
 			throw new ArgumentException(autoIncPid + " is < 0.", nameof(autoIncPid));
 		}
 
-		this.tablePid = tablePid;
 		this.autoIncPid = autoIncPid;
 	}
 
@@ -40,16 +29,16 @@ internal class ContextMenuTableManagerCustom : ContextMenuTableManagerBase
 		rowData[3] = Data[0] + " : " + Data[1];
 
 		// Sanity Check
-		if (Protocol.Exists(tablePid, (string)rowData[0]))
+		if (Protocol.Exists(TablePid, (string)rowData[0]))
 		{
-			Protocol.Log("QA" + Protocol.QActionID + "|AddItem|Table '" + tablePid + "' : Row with key '" + rowData[0] + "' already exists.", LogType.Error, LogLevel.NoLogging);
+			Protocol.Log("QA" + Protocol.QActionID + "|AddItem|Table '" + TablePid + "' : Row with key '" + rowData[0] + "' already exists.", LogType.Error, LogLevel.NoLogging);
 			return;
 		}
 
 		////Protocol.Log("QA" + Protocol.QActionID + "|AddItem|Table '" + tablePid + "' : " + String.Join(";", rowData), LogType.DebugInfo, LogLevel.NoLogging);
 
 		// Add
-		Protocol.AddRow(tablePid, rowData);
+		Protocol.AddRow(TablePid, rowData);
 		if (autoIncPid > -1)
 		{
 			Protocol.SetParameter(autoIncPid, rowData[0]);
@@ -60,7 +49,7 @@ internal class ContextMenuTableManagerCustom : ContextMenuTableManagerBase
 	{
 		////Protocol.Log("QA" + Protocol.QActionID + "|DeleteItems|Table '" + tablePid + "' : " + String.Join(";", Data), LogType.DebugInfo, LogLevel.NoLogging);
 
-		Protocol.DeleteRow(tablePid, Data);
+		Protocol.DeleteRow(TablePid, Data);
 	}
 
 	protected override void EditItem()
@@ -73,6 +62,6 @@ internal class ContextMenuTableManagerCustom : ContextMenuTableManagerBase
 		rowData[2] = Data[1];
 		rowData[3] = Data[0] + " : " + Data[1];
 
-		Protocol.SetRow(tablePid, rowKey, rowData);
+		Protocol.SetRow(TablePid, rowKey, rowData);
 	}
 }
