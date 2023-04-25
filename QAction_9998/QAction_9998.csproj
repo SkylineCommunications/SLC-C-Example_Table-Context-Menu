@@ -60,8 +60,8 @@
     <PackageReference Include="Skyline.DataMiner.Dev.Protocol">
       <Version>10.0.0.5</Version>
     </PackageReference>
-    <PackageReference Include="Skyline.DataMiner.TableContextMenu">
-      <Version>1.0.10325.10-1.0.0.X.10</Version>
+    <PackageReference Include="Skyline.DataMiner.Utils.Table.ContextMenu">
+      <Version>1.0.0.1</Version>
     </PackageReference>
     <PackageReference Include="StyleCop.Analyzers">
       <Version>1.1.118</Version>
@@ -72,7 +72,7 @@
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <ProjectExtensions>
     <VisualStudio>
-      <UserProperties DisLinkedXmlFile="C:\GIT\Examples\Protocols\SDF\SLC SDF Table ContextMenu\protocol.xml" DisProjectType="qactionProject" DisLinkId="9998" />
+      <UserProperties DisLinkId="9998" DisProjectType="qactionProject" DisLinkedXmlFile="C:\GIT\Examples\Protocols\SDF\SLC SDF Table ContextMenu\protocol.xml" />
     </VisualStudio>
   </ProjectExtensions>
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

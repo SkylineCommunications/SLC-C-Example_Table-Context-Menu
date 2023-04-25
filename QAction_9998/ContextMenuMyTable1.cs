@@ -1,11 +1,5 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-using Skyline.DataMiner.Scripting;
-using Skyline.DataMiner.TableContextMenu;
+﻿using Skyline.DataMiner.Scripting;
+using Skyline.DataMiner.Utils.Table.ContextMenu;
 
 internal enum Action
 {
