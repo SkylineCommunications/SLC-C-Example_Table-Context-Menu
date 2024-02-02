@@ -2,7 +2,7 @@
 <!--
 
 ****************************************************************************
-*  Copyright (c) 2022,  Skyline Communications NV  All Rights Reserved.    *
+*  Copyright (c) 2024,  Skyline Communications NV  All Rights Reserved.    *
 ****************************************************************************
 
 By using this driver, you expressly agree with the usage terms and
@@ -45,15 +45,15 @@ Any inquiries can be addressed to:
 -->
 
 <Protocol xmlns="http://www.skyline.be/protocol">
-	<Name>SLC SDF Table ContextMenu</Name>
+	<Name>Skyline Example Table Context Menu</Name>
 	<Description>SLC SDF Table ContextMenu</Description>
 	<Version>1.0.0.2</Version>
-	<IntegrationID>DMS-DRV-12345</IntegrationID>
+	<IntegrationID>DMS-DRV-9043</IntegrationID>
 	<Provider>Skyline Communications</Provider>
-	<Vendor>Skyline Communications</Vendor>
-	<VendorOID>1.3.6.1.4.1.8813.2.0</VendorOID>
-	<DeviceOID>0</DeviceOID>
-	<ElementType>test</ElementType>
+	<Vendor>Skyline Example</Vendor>
+	<VendorOID>1.3.6.1.4.1.8813.2.1218</VendorOID>
+	<DeviceOID>20</DeviceOID>
+	<ElementType>Example</ElementType>
 	<Type relativeTimers="true">virtual</Type>
 	<Display defaultPage="Managed Tables" pageOrder="Managed Tables;My Tables" wideColumnPages="Managed Tables;My Tables"/>
 	<SNMP includepages="true">auto</SNMP>
